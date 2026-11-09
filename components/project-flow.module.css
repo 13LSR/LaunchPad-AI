@@ -1,0 +1,261 @@
+.flow {
+  margin: 24px 0 0;
+}
+.caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.diagram {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 238px;
+  gap: 48px;
+  align-items: center;
+}
+.main {
+  min-width: 0;
+}
+.parallel,
+.branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.parallel {
+  row-gap: 12px;
+}
+.parallelLabel {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  color: var(--rose-ink);
+  font-size: 12px;
+  text-align: center;
+}
+.node {
+  padding: 17px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  text-align: center;
+}
+.node h3 {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.node p {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+}
+.node strong {
+  color: var(--foreground);
+  font-weight: 500;
+}
+.origin {
+  background: var(--rose-soft);
+  border-color: transparent;
+}
+.origin p {
+  color: color-mix(in srgb, var(--foreground) 80%, var(--rose-soft));
+}
+.core {
+  width: 68%;
+  margin: 0 auto;
+}
+.skip {
+  border-style: dashed;
+  background: transparent;
+}
+.merge,
+.split {
+  position: relative;
+  height: 38px;
+  color: var(--primary);
+}
+.merge::before,
+.split::before {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 25%;
+  width: 50%;
+  border-top: 1px solid currentColor;
+}
+.merge span,
+.split span {
+  position: absolute;
+  border-left: 1px solid currentColor;
+}
+.merge span {
+  top: 0;
+  height: 17px;
+}
+.merge span:first-child {
+  left: 25%;
+}
+.merge span:nth-child(2) {
+  left: 75%;
+}
+.merge svg,
+.split svg {
+  position: absolute;
+  top: 17px;
+  transform: translateX(-50%);
+}
+.merge svg {
+  left: 50%;
+}
+.releaseMerge svg {
+  left: calc(25% - 11px);
+}
+.releaseMerge::before {
+  left: calc(25% - 11px);
+  width: calc(50% + 11px);
+}
+.split span:first-child {
+  left: 50%;
+  top: 0;
+  height: 17px;
+}
+.split span:nth-child(2) {
+  display: none;
+}
+.split svg:nth-of-type(1) {
+  left: 25%;
+}
+.split svg:nth-of-type(2) {
+  left: 75%;
+}
+.release {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+.destination {
+  background: var(--accent);
+  border-color: transparent;
+}
+.destination p {
+  color: color-mix(in srgb, var(--foreground) 78%, var(--accent));
+}
+.releaseArrow {
+  color: var(--primary);
+}
+.feedback {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 18px;
+  color: var(--rose-ink);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.feedback svg {
+  margin-top: 2px;
+}
+.support {
+  position: relative;
+  padding: 20px 0 20px 24px;
+  border-left: 1px dashed var(--primary);
+}
+.support::before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  width: 36px;
+  border-top: 1px dashed var(--primary);
+}
+.support h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.support h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.support p {
+  margin-top: 7px;
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--muted-foreground);
+}
+.support > div {
+  margin-top: 24px;
+}
+@media (max-width: 1050px) {
+  .diagram {
+    grid-template-columns: minmax(0, 1fr) 190px;
+    gap: 30px;
+  }
+  .parallel,
+  .branches {
+    gap: 16px;
+  }
+  .support {
+    padding-left: 18px;
+  }
+  .support::before {
+    width: 22px;
+  }
+}
+@media (max-width: 760px) {
+  .diagram {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .parallel,
+  .branches {
+    gap: 12px;
+  }
+  .node {
+    padding: 14px 10px;
+  }
+  .node h3 {
+    font-size: 14px;
+  }
+  .node p {
+    font-size: 12px;
+  }
+  .core {
+    width: 86%;
+  }
+  .release {
+    gap: 6px;
+  }
+  .releaseMerge svg {
+    left: calc(25% - 8px);
+  }
+  .releaseMerge::before {
+    left: calc(25% - 8px);
+    width: calc(50% + 8px);
+  }
+  .feedback {
+    justify-content: flex-start;
+  }
+  .support {
+    padding: 20px 0 0;
+    border-left: 0;
+    border-top: 1px dashed var(--primary);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 16px;
+  }
+  .support::before {
+    display: none;
+  }
+  .support > h3,
+  .support > p {
+    grid-column: 1 / -1;
+  }
+  .support > div {
+    margin-top: 18px;
+  }
+}

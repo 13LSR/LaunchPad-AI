@@ -1,0 +1,382 @@
+[
+  {
+    "url": "https://vercel.com/docs/plans/hobby",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "age Copy page Vercel Hobby Plan Copy page Copy page The Hobby plan is free and aimed at developers with personal projects, and small-scale applications. It offers a generous set of features for individual users on a per month basis: All prices shown are ",
+      "about taxes . Resource Hobby Included Usage Global Config Reads First 100,000 Global Config Writes First 100 Fast Data Transfer First 100 GB Fast Origin Transfer First 10 GB CDN Requests First 1,000,000 Active CPU 4 CPU-hrs Provisioned Memory 360 GB-hrs Fun",
+      " First 5,000 Image Cache Reads First 300,000 Image Cache Writes First 100,000 Speed Insights Events 10,000 events over the last 30 days, shared across the team Web Analytics Events 50,000 events / month included Workflow Events 50,000 events / month include",
+      "nnect Triggers First 1,000 Hobby billing cycle As the Hobby plan is a free tier there are no billing cycles. In most cases, if you exceed your usage limits on the Hobby plan, you will have to wait until 30 days have passed before you can use the feature ",
+      "stated in the fair use guidelines , the Hobby plan restricts users to non-commercial, personal use only. When your personal account gets converted to a Hobby team, your usage and activity log will be reset. To learn more about this change, read the changelog . Com",
+      "take advantage of Vercel&#x27;s Pro trial to explore Pro features for free during the trial period, with some limitations . The free first-year domain offer is not available during the Pro trial. It applies to paid Pro teams: a team becomes eligible once",
+      " it is on a paid Pro plan. Experience Vercel Pro for free Unlock the full potential of Vercel Pro during your 14-day trial with $20 in credits. Benefit from Pro features like team collaboration and enhanced analytics. Start your free Pro",
+      "s. Developer seats cost $20 per user / month , while Viewer seats are free Enter your card details Click Confirm and Upgrade If you would like to end your paid plan, you can downgrade to Hobby . Last updated September 14, 2026 Previous Plans Next Pro Pla"
+    ]
+  },
+  {
+    "url": "https://developers.cloudflare.com/workers/platform/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "vice bindings Fine Print By default, users have access to the Workers Free plan. The Workers Free plan includes limited usage of Workers, Pages Functions, Workers KV and Hyperdrive. Read more about the Free plan limits . The Workers Paid plan includes Wo",
+      ", contact your Account Manager. Requests 1, 2, 3, 4 Duration CPU time Free 100,000 per day No charge for duration 10 milliseconds of CPU time per invocation Standard 10 million included per month +$0.30 per additional million No charge or limit for durat",
+      "gh a Worker do not count as requests. 3 Requests to static assets are free and unlimited. 4 When Workers Caching is enabled, requests served from the Worker's cache are billed at the same per-request rate as requests that invoke the Worker. This includes",
+      " milliseconds (ms) of time per request. Requests to static assets are free and unlimited. This project would have the following estimated costs: Monthly Costs Formula Subscription $5.00 Requests to static assets $0 - Requests to Worker $0 - CPU time $0 -",
+      "ated costs: Monthly Costs Formula Subscription $5.00 Requests $27.00 (100,000,000 requests - 10,000,000 included requests) / 1,000,000 * $0.30 CPU time $13.40 ((7 ms of CPU time per request * 100,000,000 requests) - 30,000,000 included CPU ms) / 1,000,000 *",
+      "e CPU time. Monthly Costs Formula Subscription $5.00 Requests $27.00 (100,000,000 requests - 10,000,000 included requests) / 1,000,000 * $0.30 CPU time $2.20 ((7 ms of CPU time per request * 20,000,000 requests) - 30,000,000 included CPU ms) / 1,000,000 * $",
+      "efault usage model. Workers Logs Workers Logs is included in both the Free and Paid Workers plans . Log Events Written Retention Workers Free 200,000 per day 3 Days Workers Paid 20 million included per month +$0.60 per additional million 7 Days Pricing c",
+      " filtering or sampling. Workers KV Workers KV is included in both the Free and Paid Workers plans . Free plan 1 Paid plan Keys read 100,000 / day 10 million/month, + $0.50/million Keys written 1,000 / day 1 million/month, + $5.00/million Keys deleted 1,0",
+      "mits for namespace creation limits and limit increases. 1 The Workers Free plan includes limited Workers KV usage. Daily usage limits reset daily at 00:00 UTC. If you exceed any one of these limits, further operations of that type will fail with an error",
+      " the KV documentation . Hyperdrive Hyperdrive is included in both the Free and Paid Workers plans . Free plan 1 Paid plan Database queries 2 100,000 / day Unlimited Footnotes 1: The Workers Free plan includes limited Hyperdrive usage. All limits reset da",
+      ") or a schema change ( CREATE , ALTER , DROP ). Footnotes The Workers Free plan includes limited Hyperdrive usage. All limits reset daily at 00:00 UTC. If you exceed any one of these limits, further operations of that type will fail with an error. ↩ Data",
+      " no data transfer (egress) or throughput (bandwidth) charges. Workers Free Workers Paid Standard operations 10,000 operations/day included 1,000,000 operations/month included + $0.40/million operations Queues per account 10,000 Unlimited, with a default ",
+      "ew billing examples, refer to Queues Pricing . Workflows Unit Workers Free Workers Paid Requests (millions) 100,000 per day ( shared with Workers requests ) 10 million included per month + $0.30 per additional million CPU time (ms) 10 milliseconds of CPU",
+      "th Steps 3,000 per day 500,000 included per month + $0.80/ additional 100,000 per month Cloudflare will not bill step and storage usage before the start date announced in the Workflows billing changelog . Workflows pricing To learn more about Workflows bill",
+      ", refer to Workflows pricing . D1 D1 is available on both the Workers Free and Workers Paid plans. Workers Free Workers Paid Rows read 5 million / day First 25 billion / month included + $0.001 / million rows Rows written 100,000 / day First 50 million /"
+    ]
+  },
+  {
+    "url": "https://neon.com/pricing",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      " Neon Pricing: Free Plan With 100 Projects, Typical Spend $15/Month Skip to main content Lakebase Postgres is built on object storage, but 99.99999% of reads are served from high-performance local ca",
+      "vice status Discord 23.3k Log in Sign up Neon pricing Get started for free. Pay per usage as you grow. Neon pricing plans Free $0 Build and learn free with no time limits and no credit card required. Try Neon Lakebase Postgres 100 projects 100 CU-hrs mon",
+      "tartup Program Early-stage startups Launch faster with up to $100k in credits. Learn more about Early-stage startups Open Source Program Open source projects Sponsorship for the open source you maintain. Learn more about Open source projects Projects and Br",
+      "grows HIPAA Compliance SOC 2 Report Access Team members Support Plans Free $0 /month Get started 100 10 100 CU-hours Per Project Up to 2 CU (8 GB RAM) After 5 minutes when inactive Free 1 GB per Project Free with limited window/size Up to 6 hours or 1 GB",
+      "oject Invocations 1M invocations per project List prices here Prepaid credits, card required Free during beta 5 GB per project included 1 day Unlimited Community (Discord) Launch Usage-based Get started 100 10 $0.002 per branch-hour $0.106 per CU-hour Up to",
+      "ty-hour Invocations $0.60 per 1M invocations List prices here Prepaid credits Free during beta Compute and egress billed as usual 500 GB per project included then $0.10/GB 3 days Unlimited Billing Support Scale Usage-based Get started 1,000 25 $0.002 per br",
+      "ty-hour Invocations $0.60 per 1M invocations List prices here Prepaid credits Free during beta Compute and egress billed as usual 500 GB per project included then $0.10/GB $0.01 per GB 14 days Included Available Available Unlimited Multiple options Last upd",
+      "ompute adjusts to load and scales to zero when idle, including on the Free plan. Connection pooling and read replicas. Up to 10,000 pooled connections per compute with built-in PgBouncer, and read replicas without added storage costs. Postgres extensions",
+      "nctions. S3-style Object Storage and Functions in every project, with Free plan allowances, plus Realtime in beta. Compliance. Neon is ISO 27001 and 27701 certified, SOC 2 audited, and GDPR and CCPA compliant. HIPAA is available on Scale. See our Securit",
+      "y branch with it. Every service is available on every plan, including Free. On Free, AI Gateway needs a card and prepaid credits, and your plan stays Free. What is a Neon project? A project in Neon is the top-level container for your environment. Each pr",
+      "rs while it's not running. Learn more about Neon's billing. What does 100 CU-hours per project give me on the Free plan? On the Free plan, each project gets 100 CU-hours of database compute per month, and compute automatically scales down to zero when idle",
+      "ice: You can create up to 100 projects, each with its own independent 100 CU-hour allowance CU-hours are only consumed while a database is actively running queries. When a project is idle, compute scales to zero and uses no CU-hours Usage is typically spre",
+      "e project: The database runs at 0.25 CU, the default compute size for Free plan projects, for ~12 hours per day. It scales down to zero the rest of the time Over a month, this uses roughly 90 CU-hours (0.25 CU × 12 hours × 30 days), staying within the Fr",
+      "ee plan limits for that project At 0.25 CU, 100 CU-hours covers about 400 hours of active compute, more than half the hours in a month This model is designed to make it practical to have many small or intermittent databases (for d",
+      "periments) without being forced into an upgrade. Learn more about our Free plan philosophy. What happens when I hit Free plan limits? The Free plan is permanent, not a trial, and doesn't require a credit card. Most limits are per project, and none of the"
+    ]
+  },
+  {
+    "url": "https://render.com/docs/free",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://www.netlify.com/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      " Dashboard Calculate your cost Full feature comparison FAQ Help Build free. Scale when you need it. From side projects to enterprise. Plans to experiment and grow the way you ship today. Free $0 forever Build and deploy free forever Deploy any framework:",
+      "mp; basic rate limiting Global CDN 300 credit limit / month Start for free Personal $9 $12 $15 See pricing in your dashboard /month Ready for real traffic Everything in Free, plus: Smart secret detection 1-day observability Priority email support 1,000 c",
+      "variables 3+ concurrent builds 30-day analytics &amp; metrics Monthly credits from plan Choose a Pro tier: 3,000 credits/month 5,000 credits/month 10,000 credits/month 15,000 credits/month 20,000 credits/month Learn more about Pro plan credit tiers Create a",
+      "s Organization management 24/7 dedicated support Request a demo Usage credits Flexible plans to optimize your usage Production deploys 15 credits each A production deploy is the version of your project pushed to your main domain. On new credit-based pricing",
+      "sts are calculated based on the cost of the AI model used. Compute 10 credits per GB-hour Compute metering includes two items: Functions &amp; Agent compute measures compute usage of serverless functions and Agent Runs. Database compute measures compute usa",
+      "ge by Netlify Database. Bandwidth 20 credits per GB Bandwidth metering includes two items: Web bandwidth is the amount of data traffic your project sends out to the internet. This includes: Assets and web content served, Ima",
+      "ount of data transferred out of your Netlify Database. Web requests 2 credits per 10k requests Web requests are web traffic requests to your site or app, including requests to your project&#39;s main (production) URL, as well as to any active branch deploys",
+      "ur calculator See full feature comparison Features on Pro View a plan Free Personal Pro Enterprise Jump to a topic Usage credits Build &amp; deploy Collaboration &amp; observability Members &amp; roles Security &amp; compliance Get support Features Free ",
+      "Personal Pro Enterprise Usage credits Usage credits Included credits per month Includes usage credits for production deploys, compute, form submissions, bandwidth, and web requests. 300 credit limit 1,000 credits included Starting with 3,000 credit",
+      "s per month, choose a Pro tier up to 20,000 credits per month. Custom Add-on credits Additional credits are available when you enable auto recharge (disabled by default). $5 / 500 additional credits $10 / 1,500 additional credits C",
+      "repos will not have membership requirements for deploys. Limited to 1 free member, with free &#x26; unlimited Git Contributors on public repos. $9/month $12/month $15/month See pricing in your dashboard for 1 member, with free &#x26; unlimited Git Contri",
+      "h $25/month See pricing in your dashboard for unlimited members, with free &#x26; unlimited Git Contributors on all repos. Custom Reviewers Provide feedback with collaborative Deploy Previews. Unlimited Unlimited Unlimited Team management Set up teams of",
+      "k without making it public, then publish it when you’re ready. How do credits work for bandwidth, compute, AI inference dollars, and web requests, and production deploys? Each metered feature consumes a certain number of credits based on how much your proje",
+      "cts use. Learn more about how each feature or meter is measured using credits in our How credits work docs. How do the Pro plan monthly credit tiers work? On the Pro plan, Team Owners can choose a monthly credit tier that fits their usage or expected season",
+      "al surges, from 3,000 up to 20,000 credits, for a single flat monthly price. Tiers above 3,000 credits also roll over unused monthly credits as long as you keep your pricing plan tier. These rollovers stay available for on"
+    ]
+  },
+  {
+    "url": "https://developers.cloudflare.com/r2/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "Copy as Markdown | View as Markdown | Agent setup Overview R2 pricing Free tier Storage usage Class A operations Class B operations Free operations Data retrieval Minimum storage duration Basin Catalog pricing Data migration pricing Super Slurper Sippy P",
+      "ieval (processing) None $0.01 / GB Egress (data transfer to Internet) Free 1 Free 1 Buckets per account First 100,000 included + $0.10 per additional bucket per month First 100,000 included + $0.10 per additional bucket per month The bucket allowance is ",
+      "r infrequent access storage) for 1.1 GB, you will be billed for 2 GB. Free tier You can use the following amount of storage and operations each month for free. Free Storage 10 GB-month / month Class A Operations 1 million requests / month Class B Operati",
+      "ons 10 million requests / month Egress (data transfer to Internet) Free 1 Caution The free tier only applies to Standard storage, and does not apply to Infrequent Access storage. Storage usage Storage is billed using gigabyte-month (GB-month) as the b",
+      "tBucketLocation , GetBucketCors and GetBucketLifecycleConfiguration . Free operations Free operations include DeleteObject , DeleteBucket and AbortMultipartUpload . Data retrieval Data retrieval fees apply when you access or retrieve data from the Infreq",
+      "talog pricing . Data migration pricing Super Slurper Super Slurper is free to use. You are only charged for the Class A operations that Super Slurper makes to your R2 bucket. Objects with sizes &lt; 100MiB are uploaded to R2 in a single Class A operation",
+      "lass A/B operations as described in previous sections. Sippy Sippy is free to use. You are only charged for the operations Sippy makes to your R2 bucket. If a requested object is not present in R2, Sippy will copy it over from your source bucket. Objects",
+      "es during the month, the estimated cost for the month would be: Usage Free Tier Billable Quantity Price Storage (1,000 objects) * (1 GB per object) = 1,000 GB-months 10 GB-months 990 GB-months $14.85 Class A Operations (1,000 objects) * (1 write per obje",
+      " stores them for 5 days, and then deletes them (delete operations are free), and during those 5 days each object is read 1,000 times, the estimated cost for the month would be: Usage Free Tier Billable Quantity Price Storage (1,000 objects) * (1 GB per o",
+      " GB-months, rather than 167 GB-months. Asset hosting If a user writes 100,000 files with an average size of 100 KB object and reads 10,000,000 objects per day, the estimated cost in a month would be: Usage Free Tier Billable Quantity Price Storage (100,000 ",
+      "(100KB per object) 10 GB-months 0 GB-months $0.00 Class A Operations (100,000 writes) 1 million 0 $0.00 Class B Operations (10,000,000 reads per day) * (30 days) 10 million 290,000,000 $104.40 TOTAL $104.40 Cloudflare billing policy To learn more about how ",
+      "d r2.dev domains does not incur data transfer (egress) charges and is free. If you connect other metered services to an R2 bucket, you may be charged by those services. ↩ ↩ 2 ↩ 3 Previous Wrangler commands Next Basin Catalog ↗︎ Was this helpful? Yes No E",
+      "dit page Report issue On this page Overview R2 pricing Free tier Storage usage Class A operations Class B operations Free operations Data retrieval Minimum storage duration Basin Catalog pricing Data migration pricing Super Slurper Sippy P"
+    ]
+  },
+  {
+    "url": "https://developers.cloudflare.com/d1/platform/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      " metrics Definitions Frequently Asked Questions Will D1 always have a Free plan? What happens if I exceed the daily limits on reads and writes, or the total storage limit, on the Free plan? What happens if I exceed the monthly included reads, writes and/",
+      "luded limits of your plan. Databases : The Workers Paid plan includes 100,000 databases per account. Each additional database costs $0.10 per month. Billing metrics Workers Free Workers Paid Rows read 5 million / day First 25 billion / month included + $0.0",
+      "01 / million rows Rows written 100,000 / day First 50 million / month included + $1.00 / million rows Storage (per GB stored) 5 GB (total) First 5 GB included + $0.75 / GB-mo Databases 10 First 100,000 included + $0.10",
+      "your account. Tables and indexes both count towards storage consumed. Free daily usage limits reset at 00:00 UTC. Monthly included usage resets based on your monthly subscription renewal date, which is determined by the day you first subscribed. There ar",
+      "equently asked questions related to D1 pricing: Will D1 always have a Free plan? Yes, the Workers Free plan will always include the ability to prototype and experiment with D1 for free. What happens if I exceed the daily limits on reads and writes, or th",
+      "e total storage limit, on the Free plan? When your account hits the daily read and/or write limits, you will not be able to run queries against D1. D1 API will return errors to your client indicating that your dail",
+      "How much do additional databases cost? The Workers Paid plan includes 100,000 databases per account. Each additional database costs $0.10 per month. Query and storage charges apply separately. For example, 100,020 databases existing for a full billing month",
+      " cost (100,020 - 100,000) × $0.10 = $2.00 for the 20 additional databases. Previous Demos and architectures Next Limits Was this helpful? Yes No Edit page Report issue On this page Overview Billing metric",
+      "s Definitions Frequently Asked Questions Will D1 always have a Free plan? What happens if I exceed the daily limits on reads and writes, or the total storage limit, on the Free plan? What happens if I exceed the monthly included reads, writes and/"
+    ]
+  },
+  {
+    "url": "https://supabase.com/docs/guides/platform/billing-on-supabase",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://railway.com/pricing",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://fly.io/docs/about/pricing/",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://www.koyeb.com/docs/reference/instances",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "e types GPU Instance types Standard Instance types Eco Instance types Free Instances Instance life cycle Instance statuses What happened when an Instance stops Scroll to top Reference Instances Copy page Instances Instances are the runtime units that exe",
+      "ice/month nano 0.25 256MB 2.5GB SSD $0.000001 $0.0036 $2.68 micro 0.5 512MB 5GB SSD $0.000002 $0.0072 $5.36 small 1 1GB 10GB SSD $0.000004 $0.0144 $10.71 medium 2 2GB 20GB SSD $0.000008 $0.0288 $21.43 large 4 4GB 40GB SSD $0.000016 $0.0576 $42.85 xlarge 8",
+      "th eco-nano 0.1 256MB 2GB SSD $0.0000006 $0.0022 $1.61 eco-micro 0.25 512MB 4GB SSD $0.000001 $0.0036 $2.68 eco-small 0.5 1GB 8GB SSD $0.000002 $0.0072 $5.36 eco-medium 1 2GB 16GB SSD $0.000004 $0.0144 $10.71 eco-large 2 4GB 20GB SSD $0.000008 $0.0288 $21",
+      "6 $0.0576 $42.85 eco-2xlarge 8 16GB 20GB SSD $0.000032 $0.1152 $85.71 Free Instances The Free Instance allows you to preview the Koyeb platform and deploy a Web Service free of charge . Each Free Instance provides 512MB of RAM, 0.1 vCPU, and 2GB of SSD. ",
+      "Each organization is limited to one Free Instance. Free Instances are perfect for testing the platform and working on hobby projects, and should not be used for production applications. Free Instances have important limitations you sho"
+    ]
+  },
+  {
+    "url": "https://huggingface.co/docs/hub/spaces-overview",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://docs.streamlit.io/deploy/streamlit-community-cloud",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "oud, you can create, deploy, and manage your Streamlit apps — all for free. Share your apps with the world and build a customized profile page to display your work. Your Community Cloud account connects directly to your GitHub repositories (public or pri"
+    ]
+  },
+  {
+    "url": "https://www.pythonanywhere.com/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "nsoles, and full SSH access to your account. All accounts ( including free ones ) have screen-sharing with other PythonAnywhere accounts, and free SSL support. &nbsp; Developer $10/month Run your Python code in the cloud from one web app and the console ",
+      "orkers as you need to scale your site's capacity. ( more info ) Up to 100,000 CPU-seconds per day for consoles, scheduled tasks and always-on tasks ( more info ) IPython/Jupyter notebook support As much disk space as you choose Create a Custom account &nbsp",
+      "Subscriptions If you sign up for a year or more, we give you 2 months free per year, so you only pay for 10 months. Create an annual account &nbsp; Explore with a limited account Explore PythonAnywhere with a limited free account . You'll get one web app",
+      " info Medium Depends on price Low Private file storage 5GB You choose 512MB &times; Customize your plan All paid plans support custom domains for all of your web apps. CPU time per day: seconds [?] Number of web apps: [?] Number of web workers: [?] Number"
+    ]
+  },
+  {
+    "url": "https://deno.com/deploy/pricing",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "loy and Deno Subhosting usage. — Compare Deno Deploy plans — Features Free $0 /month For personal use and smaller projects Start free Pro $20 /month For team collaboration with advanced features Go Pro Builder $200 /month For Subhosting users and growing",
+      "ncluded Reliability SLA Not included Not included Not included 99.95% Free $0 /month For personal use and smaller projects Applications Requests/month: Allowed inbound HTTP requests to your deployments per month 1M Egress Bandwidth: Monthly limit on data",
+      " engineers as you onboard to Deno Deploy No Reliability SLA: No Start free Pro $20 /month For team collaboration with advanced features Applications Requests/month: Allowed inbound HTTP requests to your deployments per month 5M (then $2/M) Egress Bandwid"
+    ]
+  },
+  {
+    "url": "https://turso.tech/pricing",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "t Solutions Customers Partners Blog Resources Pricing Login Try Cloud free Try Cloud free Open main menu Generous pricing for every stage . Start free, no credit card required. The same architecture carries you from your first prototype to your ten-milli",
+      "s lightweight as a file, creating one costs almost nothing. Start for free now Plans Monthly Yearly Databases Storage Monthly Rows Read Monthly Rows Written Monthly Syncs Audit Logs Point-In-Time Restore Restore Deleted DBs DPA IP Allow Lists AWS VPC All",
+      "ow Lists Teams SSO BYOK Encryption HIPAA SOC2 BYOC Deployment Support Free $0/month 100 5GB 500 Million 10 Million 3GB 1 day Community Sign up Developer $4.99/month Save $1/month Unlimited 9GB + $0.75 / GB 2.5 Billion + $1 / Billion 25 Million + $1 / Mil",
+      "0GB 30 Day Retention 90 days 24x7 Priority Email + Support Contact us Free $0/month Databases 100 Storage 5GB Monthly Rows Read 500 Million Monthly Rows Written 10 Million Monthly Syncs 3GB Audit Logs Point-In-Time Restore 1 day Restore Deleted DBs DPA I",
+      "e restore and database branching do not add usage cost. FAQ Start for free now Talk to sales → When will I be billed for my plan? If you are on a paid plan, you will be billed on the first day of each month. Will I be charged if I exceed my plan&#x27;s u",
+      "ted DBs? Can I restore a database that was deleted while I was on the Free plan? Turso Cloud Quickstart Documentation Pricing API Status Terms of Use Privacy Policy Embedded Replicas Database Branching Backups &amp; Recovery Platform API Turso Database Q"
+    ]
+  },
+  {
+    "url": "https://upstash.com/pricing/redis",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "istent usage with a flat price. Redis Vector QStash Workflow Box Blob Free $0 - Perfect for prototypes and hobby projects. Data Size 250 MB Monthly Bandwidth 10 GB Monthly Commands 500K Start Now Pay as You Go $0.2 per 100K commands Flexible pricing for ",
+      " Compliance Learn More Compare Plans Plans that scale to all sizes. 1 Free DB Usage Based Pricing Fixed Pricing Fixed Pricing Free Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise - Pay as you go",
+      " Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise $0.2 / 100K commands Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB F",
+      "ixed 100GB Fixed 500GB Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fixed 10GB Fixed 50GB Fixed 100GB Fixed 500GB Enterprise $10 / month Enterprise Free Pay as you go Fixed 250MB Fixed 1GB Fixed 5GB Fi",
+      "Email Support Dedicated support and Slack channel Price Monthly price Free - $10 +($5 ✕ read regions) Custom Request price Free $0.2 per 100K No per-command pricing Custom Storage price Free $0.25 per GB - Custom Bandwidth price Free Free - Custom Start ",
+      " Now Start Now Learn More FAQ How can I upgrade to pay as you go from free tier? Once you enter your credit card, your database will be upgraded to the pay-as-you-go plan and limits will be updated. What is included in free tier? Free tier includes 250MB",
+      " data size and 500K commands per month. Can I get a free Redis database without signing up? Yes. Send a POST request to https://upstash.com/start-redis and you get a free Redis database instantly, with no signup, credit card, or API key",
+      "his page. Are paid databases&#x27; first 250MB data and 500K commands free? No. Once you upgrade to a paid tier, you will be charged for data size and commands according to that plan. How does the budget work? Budget is only available for the pay-as-you-",
+      "w is the storage cost calculated? For each database, the first 1GB is free. Beyond that, storage is charged at $0.25 per GB of total storage. Total storage is determined by adding up the storage at all replicas and regions. Even if you do not access your",
+      "that exceed the max record size stop accepting new records. Are there free trials? Yes, we can provide free trials for testing and PoC purposes. Email us at support@upstash.com . How many databases can I create? A free account can have 1 database. On a p",
+      "h is the price for bandwidth? For pay-as-you-go, monthly bandwidth is free up to 200GB. Beyond that, we charge $0.03 per additional GB. For Fixed plans, bandwidth is included up to your plan&#x27;s limit. If your database is on the highest Fixed tier and",
+      "for any plan? Yes. You can purchase Prod Pack for any plan except the Free tier. You can enable it from your Upstash dashboard database details page. What is included in Prod Pack? Prod Pack includes uptime SLA, SOC 2 Type 2 report, advanced monitoring w",
+      " many zones it is replicated to. The impact is on bandwidth, which is free up to 200GB per month and $0.03 per additional GB, so a write-heavy database may notice it there. What happened to the Pro 2K and Pro 10K plans? Pro 2K and Pro 10K were fixed-thro",
+      "all plans Plan overview Plan Price Read region Max data Max bandwidth Free $0/month - 250 MB 10 GB Pay as You Go $0.20 per 100K commands - 100 GB Unlimited Fixed 250MB $10/month +$5/region 250 MB 50 GB Fixed 1GB $20/month +$10/region 1 GB 100 GB Fixed 5G",
+      "s Commands: $0.20 per 100K commands Storage: $0.25 per GB (first 1 GB free) Bandwidth: Free up to 200 GB/month, then $0.03/GB Max data size: 100 GB Max request size: 10 MB Max record size: 100 MB Platforms: AWS, GCP, FLY, Vercel Full machine-readable pri"
+    ]
+  },
+  {
+    "url": "https://www.mongodb.com/pricing",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "ngoDB ever built arrow-right Build with MongoDB Atlas Get started for free in minutes Sign Up Explore Atlas Deployment Options Develop with self-managed MongoDB Learn more Try Community Edition Explore the latest version of MongoDB Download Resources Doc",
+      "ritical production. For unpredictable AI demand, try Atlas Infinite . Free $0/hour Explore Atlas Free forever For learning and exploring MongoDB in a cloud environment. 512MB of storage Shared RAM Shared vCPU Flex $0.011/hour Build a Prototype Up to $30/",
+      "e costs, and keep it accessible. See pricing → Support Atlas includes free Basic Support. Upgrade to a paid plan for faster response times, with select security features available as developer add-ons and included with Pro and higher plans. See pricing →",
+      " ongoing technical support for versions after their EOL. View plans → Free Cluster Pay-as-you-go! Clusters are billed hourly with monthly invoices. Amazon Web Services Microsoft Azure Google Cloud Cluster Tier Storage RAM vCPUs Base Price M0 512 MB Share",
+      "d Shared Free forever M2 2 GB Shared Shared $9/mo M5 5 GB Shared Shared $25/mo Dedicated Cluster Pay-as-you-go! Clusters are billed hourly with monthly invoices. Amazon Web Services Microsoft A",
+      ".0010 0.0015 0.0010 0.0011 0.0011 0.0010 0.0010 0.0011 FAQ Is there a free tier available for MongoDB Atlas? What does it include? Yes, MongoDB Atlas offers a free-forever tier, the M0. Atlas’s free tier includes 512 MB of storage, 32MB of sort memory, a",
+      "nd up to 100 operations per second. The free tier is a great starting point to learn about MongoDB and explore its capabilities in a fully managed cloud environment. Get started with a free tier → Atlas Free tier features an",
+      "d limitations → Guide: How to deploy a free tier cluster → How do I choose the right cluster tier for my application? Choosing the right MongoDB Atlas cluster tier for your application involves considering the application's",
+      "rkload, data size, and performance needs. Key considerations include: Free Tier (M0): Best for learning and exploring, with limited resources . Flex: Ideal for development and testing, offering the lowest cost option with certain feature limitations . De",
+      "fferent regions/cloud providers. Inbound data transfers are typically free. Free and Flex tiers are not charged for outgoing data. Backup services: Costs are based on the region and the monthly storage consumed by snapshots and oplogs for continuous back",
+      "ups. Note that backup services are not available for the Free tier. Add-on tools and services: Additional add-on tools and services contribute to the overall cost. Examples include but are not limited to: Atlas Stream Processing Dedicated Mo",
+      "oDB Atlas offer any discounts? MongoDB Atlas offers discounts through free credits for startups, educators, and students. MongoDB for Startups: Designed for founders ready to build and scale fast, our program provides: Free MongoDB Atlas credits to power",
+      "teach practical database skills, this program includes: $500 in Atlas credits Free MongoDB certifications, valued at $150 Access to MongoDB’s global educator community via exclusive forums and events Educator resources curated by MongoDB experts to prepare ",
+      "ds-on database expertise, this program provides: $50 in Atlas Credits Free MongoDB certifications, valued at $150 Student qualifications: Are enrolled in a degree- or diploma-granting program, such as a high school, college, university, or homeschool Hav",
+      "der App Services All App Services in an Atlas project share a monthly free tier: 1 million requests or 500 hours of compute, or 10,000 hours of sync runtime (whichever occurs first), plus 10 GB of data transfer. Usage below these thresholds in a given mo"
+    ]
+  },
+  {
+    "url": "https://firebase.google.com/pricing",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://www.pingcap.com/tidb-cloud/",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://aiven.io/free-postgresql-database",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://www.pinecone.io/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "ducts Enterprise Customers Resources Pricing Contact Log in Start for free Pricing Start free, scale effortlessly Pinecone runs on fully managed infrastructure that scales with you. Start building today with product and support plans tailored to your nee",
+      "terprise Starter For trying out and for small applications. Start for Free Free View included usage Pinecone Database On-Demand Pinecone Inference Pinecone Assistant Dense, Sparse, and Full-Text Indexes Console Metrics Community Support via Discord Examp",
+      "ultiple projects and users Prometheus and Datadog monitoring Includes Free support Response SLAs available via Developer or Pro support add-on Standard POPULAR For production applications at any scale. Start Free Trial $50/month min. usage You&#x27;ll be",
+      "ds this amount, you&#x27;ll pay as you go. 3 week trial includes $300 credits Everything in Builder Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage Choose your cloud and region Dedicated Read Nodes (DRN) Import from object storage Backu",
+      "p and Restore RBAC SSO (SAML 2.0) HIPAA add-on Includes Free support Response SLAs available via Developer or Pro support add-on Enterprise For mission-critical production applications. Get Started Request Trial $500/month min. usage You&#x",
+      "included Starter For trying out and for small applications. Start for Free Free View included usage Pinecone Database On-Demand Pinecone Inference Pinecone Assistant Dense, Sparse, and Full-Text Indexes Console Metrics Community Support via Discord Examp",
+      "ultiple projects and users Prometheus and Datadog monitoring Includes Free support Response SLAs available via Developer or Pro support add-on Standard POPULAR For production applications at any scale. Start Free Trial $50/month min. usage You&#x27;ll be",
+      "ds this amount, you&#x27;ll pay as you go. 3 week trial includes $300 credits Everything in Builder Pay-as-you-go for Database On-Demand, Inference, and Assistant Usage Choose your cloud and region Dedicated Read Nodes (DRN) Import from object storage Backu",
+      "p and Restore RBAC SSO (SAML 2.0) HIPAA add-on Includes Free support Response SLAs available via Developer or Pro support add-on Enterprise For mission-critical production applications. Get Started Request Trial $500/month min. usage You&#x",
+      "project 20 per project 200 per project Namespaces per Index 100 1,000 100,000 1,000,000 Embedding Models All available models All available models All available models All available models Reranking Models bge-reranker-v2-m3 only bge-reranker-v2-m3 only All",
+      "ted Admin API SSO (SAML 2.0) SAML roles SCIM Service Accounts Support Free support included View Details Free support included View Details Pro support included View Details Security and Compliance Encryption at rest and in transit RBAC Audit Logs Privat",
+      "e . Start building knowledgeable AI today Create your first index for free, then pay as you go when you&#x27;re ready to scale. Start building Get a demo Products Vector Database Dedicated Read Nodes Assistant Documentation Pricing Security Integrations "
+    ]
+  },
+  {
+    "url": "https://qdrant.tech/pricing/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "Us About Us Careers Contact Us Pricing Star us on GitHub Log in Start Free Products Qdrant Vector Search Engine Qdrant Managed Cloud Qdrant Hybrid Cloud Qdrant Edge (Beta) Qdrant Serverless (Waitlist) Solutions Use Cases RAG Recommendation Systems Advanc",
+      "Us About Us Careers Contact Us Pricing Star us on GitHub Log in Start Free Qdrant Cloud Pricing Start free. Scale to production with fully managed vector search. Meet all enterprise security and compliance requirements. Talk to our Team Try our Pricing C",
+      "alculator Managed On-Premise Free Tier Free forever For testing, and prototypes Single Node Cluster 0.5 vCPU / 1GB RAM/ 4 GB Disk. Free Cloud Inference With Selected Models Start Free Standard Tier Usage-based pricing For p",
+      "Horizontal Scaling Highly Available Setups Backup & Disaster Recovery Free Tokens for Paid Inference Models 99.5% Uptime SLA Subscribe on Marketplace. Deploy on Cloud Premium Tier Minimum spend required For enterprises with additional security and compli",
+      " cluster needs to be? Try our Pricing Calculator Features by Tier OSS Free Tier Standard Tier Premium Tier OSS Free Tier Standard Tier Premium Tier Features Cloud Inference Only free and external models Cloud Providers Depends on chosen infrastructure AW",
+      "d GCP only) Private VPC Links N/A Enterprise SSO Authentication Start Free Start Free Deploy on Cloud Deploy on Cloud Compare All Features Enterprise Support Support & Reliability Community Standard Premium Enterprise Community Standard Premium Enterpris",
+      "e Pricing Price Free Included with Paid Tier On Request On Request Availability & Uptime Helpdesk Hours Discord Only 10h/day (Business Hours) 24/7, 365 24/7, 365 Uptime SLA 99.5% 99.9% (99.95% Multi-A",
+      "ption with Shared Keys Talk to Our Team FAQs What Happens if I Exceed Free Tier Limits? If your data size growth exceeds the Free Tier limits (1GB RAM and 4GB disk), you can easily upgrade to a Standard Tier and scale up your cluster. How Does Qdrant Clo",
+      "n resource usage, if you have a bigger cluster, you pay for more. The free tier includes 1GB RAM and 4GB disk storage, upgrading will get you a dedicated cluster. Can I Migrate from OSS to Qdrant Cloud? Yes, you can easily migrate your existing Qdrant OS",
+      "ocumentation to help you transition smoothly. How Do I Choose Between Free Tier and Standard Tier? The Free Tier is ideal for testing, and prototypes being limited to 1GB RAM and 4GB disk without high availability. Choose the Standard Tier for workloads ",
+      ". Cloud Quickstart - spin up a cluster in seconds. Start Building for Free Products Qdrant Vector Search Engine Qdrant Cloud Qdrant Hybrid Cloud Qdrant Enterprise Solutions Qdrant Cloud Inference Qdrant Edge (Beta) Qdrant Serverless (Coming soon) Develop"
+    ]
+  },
+  {
+    "url": "https://cloud.google.com/run/pricing",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://aws.amazon.com/free/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      " Free Cloud Computing Services - AWS Free Tier Skip to main content Interested in cloud offerings specifically available in the China region? Please visit www.amazonaws.cn . Learn about the China region free tier at www.a",
+      "mazonaws.cn/free . Filter: All English Contact us AWS Marketplace Support My account re:Invent Discover AWS Products Solutions Pricing Resources Search Filter: All Sign in to console Create accoun",
+      " pilots stall. Learn what the rest do differently Get started Sign up free, connect your coding agent, and start building Data for agentic AI The 7 essential data capabilities to scale agentic AI Analyst Report AWS named a Leader in the 2026 Gartner Magi",
+      "icing Calculator Estimate the cost for your architecture solution AWS Free Tier Get free, hands-on experience with AWS products and services AWS Offers Explore different offer programs to gain hands-on experience AWS Savings Plans Flexible pricing model ",
+      "siness transformation with expert guidance and packaged solutions AWS Free Tier Overview Free Tier Categories Featured Offers for Business Terms and Conditions More AWS AWS Free Tier AWS Free Tier Get started for free with up to $200 in credits Create a ",
+      "free account Start building in console Get up to $200 in credits for new customers When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 ov",
+      "k things, and experiment with no charges and no surprise bills on the Free plan. The account closes on its own 6 months after you open it or when your credits run out, whichever comes first. You won’t be charged unless you convert to a Paid plan. Play Co",
+      "mpare the plans Choose the plan that fits your needs — free plan to get started, paid plan to scale. Benefits Free plan Paid plan Receive up to $200 USD free credits &nbsp;✔ &nbsp;✔ Free usage of select services &nbsp;✔ &nbsp;✔ Access to a",
+      "cations with foundation models Learn more Learn more about our offers Free plan Start building on AWS with up to $200 in credits. Get access to over 90 services for up to 6 months as you build and experiment with no charges and no surprise overages. Paid",
+      "g. New customers on the Paid plan are also eligible for up to $200 in credits. Short-term trial Try selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usa",
+      "ge beyond the trial limits. Always free 30+ AWS services are always free within monthly usage limits on both the Free and Paid plans. If you go beyond these limits or access paid features, credits are automatically applied to cover the costs. Get start",
+      "ed Getting started Create your free AWS account Gain instant access to the AWS Free Tier. Create an AWS account FAQs Have more questions? Learn more with our Frequently Asked Questions. Learn More Community Connect "
+    ]
+  },
+  {
+    "url": "https://edgeone.ai/products/pages",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "Protection Makers Edge Functions L4 Proxy Service PLans &amp; pricing Free Plan Personal Plan Basic Plan Add-Ons TECH SUPPORT Github Discord Telegram WhatsApp Kepler Plan S3 Learn More Global Hackathon Highlights Resources ENGAGE Learning Center Resource",
+      "nkedin EdgeOne Makers A Full-Stack Dev Platform for Web and AI Agents Free No Credit Card Required Ship modern web apps with hosting, functions, and storage—and AI agents with sandbox, memory, observability, and built-in models—in minutes, on one platfor",
+      "7;ll even provide you with an SSL certificate automatically. Will the Free plan be available long-term? Yes, our Free plan is here to stay and will be available permanently! What are the Advantages of EdgeOne Makers? With over 3,200 global edge nodes (in",
+      "ed deployment in a one-stop development platform. Try our product for free! Full Access, No Cost! 24/7 Technical Team Support *We ensure a stable and reliable hosting experience, so your website remains fast and responsive, no matter the traffic! Get Sta",
+      "or HLS Player Ping Test SSL Certificate Checker Certificate Generator Free HTML Hosting Image to URL Drop Use Cases Related Products Tencent RTC Tencent MPS Tencent VooV Meeting Tencent DNSPOD WeSurvery Tencent LightVela Products Edge Acceleration &amp; ",
+      "or HLS Player Ping Test SSL Certificate Checker Certificate Generator Free HTML Hosting Image to URL Drop Use Cases Related Products Tencent RTC Tencent MPS Tencent VooV Meeting Tencent DNSPOD WeSurvery Tencent LightVela Copyright © 2013-2026 Tencent Clo"
+    ]
+  },
+  {
+    "url": "https://developers.cloudflare.com/pages/platform/limits/",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      " Redirects Users Projects Below are limits observed by the Cloudflare Free plan. For more details on removing these limits, refer to the Cloudflare plans ↗︎ page. Need a higher limit? To request an adjustment to a limit, complete the Limit Increase Reque",
+      "es will build and deploy your site. Build limits depend on your plan: Free Pro Business Builds 1 build at a time 5 concurrent builds 20 concurrent builds Builds per month 500 5,000 20,000 Builds will timeout after 20 minutes. Concurrent builds are counte",
+      "cific number of custom domains. This limit is on a per-project basis. Free Pro Business Enterprise 100 250 500 500 1 Files Pages uploads each file on your site to Cloudflare's globally distributed network to deliver a low latency experience to every user",
+      "ur site. Cloudflare Pages sites can contain up to 20,000 files on the Free plan. Paid plans (such as Pro, Business, and Enterprise plans) can have up to 100,000 files per site. To enable this increased limit, set the environment variable PAGES_WRANGLER_M",
+      " Paid plans support up to 500 Workers per account, each serving up to 100,000 static asset files. Note The Workers project limit (100 on Free, 500 on paid plans) is separate from the Pages project limit. Refer to Workers limits for details. In order to prot"
+    ]
+  },
+  {
+    "url": "https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/",
+    "status": 0,
+    "checkedAt": "2026-11-08",
+    "evidence": [],
+    "error": "TypeError: fetch failed"
+  },
+  {
+    "url": "https://github.com/supabase/supabase/blob/master/apps/docs/content/guides/platform/billing-on-supabase.mdx",
+    "status": 200,
+    "checkedAt": "2026-11-08",
+    "evidence": [
+      "The Free Plan helps you get started and explore the platform. You are granted two free projects. The project limit applies across all organizations where you are an Owner or Administrator. This means you could have two Free Plan organizations with one project each, or one Free Plan organization with two projects. Paused projects do not count towards your free project limit.",
+      "Each subscription plan includes a built-in quota for some selected usage items, such as [Egress](/docs/guides/platform/manage-your-usage/egress), [Storage Size](/docs/guides/platform/manage-your-usage/storage-size), or [Edge Function Invocations](/docs/guides/platform/manage-your-usage/edge-function-invocations). This quota represents your free usage allowance. If you stay within it, you incur no extra charges for these items. Only usage beyond the quota is billed as overage.",
+      "| Egress                           | 5 GB                     | 250 GB included, then <Price price=\"0.09\" /> per GB                 | Custom     |",
+      "| Database Size                    | 500 MB per project       | 8 GB disk per project included, then <Price price=\"0.125\" /> per GB | Custom     |",
+      "| Monthly Active Users             | 50,000 MAU               | 100,000 MAU included, then <Price price=\"0.00325\" /> per MAU        | Custom     |",
+      "| Monthly Active Third-Party Users | 50,000 MAU               | 100,000 MAU included, then <Price price=\"0.00325\" /> per MAU        | Custom     |",
+      "| Storage Size                     | 1 GB                     | 100 GB included, then <Price price=\"0.021\" /> per GB                | Custom     |"
+    ]
+  }
+]

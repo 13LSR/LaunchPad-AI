@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-11-09",
+  "scope": "本地运行阶段、环境管理与端口进程排错",
+  "sources": [
+    {
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/stop-process",
+      "supports": "Stop-Process 可按 Id 停止进程；Force 用于跳过确认，并非优雅终止与强制终止的级别切换。指南先核对实际进程，再按编号停止，不向用户提供默认批量终止命令。"
+    },
+    {
+      "url": "https://docs.python.org/3/library/venv.html",
+      "supports": "venv 创建独立环境；Windows PowerShell 使用 Scripts/Activate.ps1，bash/zsh 使用 bin/activate；激活并非运行环境内 Python 的必要条件。"
+    },
+    {
+      "url": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json",
+      "supports": "package.json 的 scripts 定义项目命令，engines 提供运行时版本约束；不能只凭文件名判断具体框架。"
+    },
+    {
+      "url": "https://docs.astral.sh/uv/guides/projects/",
+      "supports": "uv 使用 pyproject.toml、uv.lock 和项目环境；uv sync 准备环境，uv run 在项目环境中执行命令，并会检查锁文件和环境同步。"
+    },
+    {
+      "url": "https://python-poetry.org/docs/basic-usage/",
+      "supports": "poetry install 安装项目依赖；poetry run 在项目虚拟环境中执行命令；Python 版本仍须满足项目要求。"
+    }
+  ]
+}

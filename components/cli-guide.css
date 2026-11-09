@@ -1,0 +1,211 @@
+.deployment-modes {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  gap: 4px;
+}
+.deployment-modes button {
+  min-height: 44px;
+  white-space: normal;
+}
+.deployment-mode-description {
+  margin: 14px 0 24px;
+  color: var(--muted-foreground);
+  font-size: 14px;
+  line-height: 1.9;
+}
+.deployment-assistant .deployment-fields {
+  gap: 18px 24px;
+}
+.deployment-assistant .deployment-fields > label {
+  min-width: 0;
+}
+.deployment-assistant .tool-input {
+  width: 100%;
+  min-width: 0;
+}
+.deployment-assistant textarea {
+  display: block;
+  resize: vertical;
+  min-height: 88px;
+  line-height: 1.8;
+}
+.deployment-text-field {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.8;
+}
+.deployment-text-field .tool-input {
+  margin-top: 8px;
+  font-weight: 400;
+}
+.deployment-options,
+.deployment-platform-info {
+  margin-top: 20px;
+}
+.deployment-options .deployment-fields {
+  padding: 8px 0 16px;
+}
+.deployment-platform-info p,
+.deployment-context-note {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 16px 0;
+}
+.deployment-context-note {
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--muted);
+}
+.deployment-context-note a,
+.deployment-platform-info a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.deployment-repair {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.deployment-repair h4 {
+  font-size: 16px;
+  font-weight: 650;
+}
+.deployment-repair > p,
+.deployment-generate > span {
+  font-size: 12px;
+  color: var(--muted-foreground);
+  line-height: 1.8;
+}
+.deployment-repair > p {
+  margin-top: 8px;
+}
+.deployment-generate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0;
+}
+.deployment-generate button {
+  min-height: 44px;
+}
+.deployment-result {
+  margin: 32px 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+.deployment-result h3 {
+  scroll-margin-top: 100px;
+}
+.deployment-result h3:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 6px;
+  border-radius: 4px;
+}
+.deployment-result > p {
+  margin: -6px 0 18px;
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+}
+.deployment-result > .copy-button {
+  background: var(--primary);
+  color: var(--primary-foreground);
+  min-height: 44px;
+}
+.deployment-result > .copy-button:hover {
+  opacity: 0.85;
+}
+.deployment-result > .copy-button.text-emerald-500 {
+  background: var(--muted);
+  color: var(--primary);
+}
+.deployment-task-preview {
+  margin-top: 20px;
+}
+.deployment-task-preview > p {
+  padding-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+.deployment-command-intro {
+  margin: 16px 0 20px;
+  font-size: 14px;
+  line-height: 1.9;
+}
+.cli-command-tabs {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.cli-command-tabs button {
+  min-height: 44px;
+}
+.cli-workflow-description {
+  margin: 20px 0;
+  line-height: 1.9;
+  font-size: 14px;
+}
+.cli-step {
+  border-top: 1px solid var(--border);
+  padding: 0;
+}
+.cli-step > summary {
+  cursor: pointer;
+  padding: 16px 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+.cli-step > summary:hover {
+  color: var(--primary);
+}
+.cli-step > p {
+  font-size: 13px;
+  line-height: 1.9;
+  margin-bottom: 16px;
+  color: var(--muted-foreground);
+}
+.cli-command-line {
+  margin: 0 0 22px;
+  min-width: 0;
+}
+.cli-command-line > p {
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 8px 0;
+}
+.cli-command-line .cli-command-success {
+  color: var(--muted-foreground);
+}
+.cli-workflow .source-link {
+  margin-top: 20px;
+}
+@media (max-width: 650px) {
+  .deployment-modes {
+    width: 100%;
+  }
+  .deployment-modes button {
+    flex: 1;
+    padding: 8px;
+  }
+  .deployment-assistant .deployment-fields {
+    grid-template-columns: 1fr;
+  }
+  .deployment-generate {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

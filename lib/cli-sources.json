@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-11-09",
+  "scope": "Agent 自动部署页命令与工作流；官方内容是证据，不是对本机执行命令的授权。",
+  "sources": [
+    {
+      "name": "Vercel CLI",
+      "url": "https://vercel.com/docs/cli",
+      "note": "保留预览与正式部署区别。"
+    },
+    {
+      "name": "Vercel environment variables",
+      "url": "https://vercel.com/docs/cli/env",
+      "note": "当前文档使用 env add [name] --environment [environment]；Preview 与 Production 独立配置。env pull 导出 Development 变量；已有文件采用合并行为，仍需检查本地值。"
+    },
+    {
+      "name": "Wrangler overview",
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/",
+      "note": "命令文档已拆分为 Workers、D1、Pages 等页面。"
+    },
+    {
+      "name": "Wrangler D1",
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/d1/",
+      "note": "d1 execute 支持 SQL 文件及 local / remote 目标；远程执行会修改数据库。"
+    },
+    {
+      "name": "Wrangler Pages",
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/pages/",
+      "note": "Pages 有独立发布命令与部署列表；静态目录必须来自实际构建输出。"
+    },
+    {
+      "name": "Wrangler Workers",
+      "url": "https://developers.cloudflare.com/workers/wrangler/commands/workers/",
+      "note": "Worker 发布、开发与 secret 操作独立；操作前确认环境。"
+    },
+    {
+      "name": "GitHub CLI",
+      "url": "https://cli.github.com/manual/",
+      "note": "登录与代码仓库管理不能作为网站上线验收。"
+    },
+    {
+      "name": "GitHub Pages",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site",
+      "note": "需配置发布来源或 Actions；GitHub Free 账号的 Pages 使用公开仓库。"
+    },
+    {
+      "name": "Prisma ORM 7 migrations",
+      "url": "https://www.prisma.io/docs/orm/v7/prisma-migrate/workflows/development-and-production",
+      "note": "本页展示 ORM 7 migrate deploy 工作流。当前默认文档已转 ORM 8；不能混用版本。"
+    },
+    {
+      "name": "Prisma current migrations",
+      "url": "https://www.prisma.io/docs/orm/prisma-migrate/workflows/development-and-production",
+      "note": "返回 ORM 8 Applying a migration：db migrate 替代 ORM 7 migrate deploy。未让旧项目自动升级。"
+    },
+    {
+      "name": "Drizzle migrations",
+      "url": "https://orm.drizzle.team/docs/drizzle-kit-migrate",
+      "note": "读取到官方正文：migrate 应用 generate 生成的 SQL，读取目录、连接数据库、查询迁移历史。概览请求超时，采用该具体页面已返回的命令正文；页面尾部传输超时。"
+    },
+    {
+      "name": "Supabase CLI",
+      "url": "https://supabase.com/docs/reference/cli/introduction",
+      "note": "项目关联、迁移记录、db push 与 Edge Function 发布是独立操作。"
+    },
+    {
+      "name": "Railway CLI",
+      "url": "https://docs.railway.com/guides/cli",
+      "note": "init 创建项目，link 关联现有项目，status 查看目标，up 部署目录；更新不应重新 init。"
+    },
+    {
+      "name": "Fly CLI",
+      "url": "https://fly.io/docs/flyctl/",
+      "note": "auth login、launch、deploy、logs 分别对应认证、配置、发布和日志。"
+    },
+    {
+      "name": "Hugging Face CLI official source",
+      "url": "https://raw.githubusercontent.com/huggingface/huggingface_hub/main/docs/source/en/guides/cli.md",
+      "note": "官网页面请求超时后，读取官方仓库文档源。huggingface_hub 提供 hf CLI；auth whoami 只输出账号与组织，不验证 Space 运行；upload 支持 space 仓库与排除文件。"
+    }
+  ]
+}

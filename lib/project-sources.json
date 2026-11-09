@@ -1,0 +1,217 @@
+[
+  {
+    "repository": "actualbudget/actual",
+    "source": "https://github.com/actualbudget/actual/blob/master/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "57e95060c5009be43140f4140eaf8c3d170a4a79",
+    "evidence": [
+      "There are four ways to deploy Actual:",
+      "1. One-click deployment [via PikaPods](https://www.pikapods.com/pods?run=actual) (~2.00 $/month) - recommended for non-technical users",
+      "1. Self-hosted by using [a Docker image](https://actualbudget.org/docs/install/docker)",
+      "<a href=\"https://www.netlify.com\"><img src=\"https://www.netlify.com/v3/img/components/netlify-color-accent.svg\" alt=\"Deploys by Netlify\" /></a>",
+      "<a href=\"https://www.docker.com\"><img src=\"https://www.docker.com/app/uploads/2023/05/symbol_blue-docker-logo.png\" alt=\"Docker\" height=\"48\" /></a>"
+    ]
+  },
+  {
+    "repository": "apache/answer",
+    "source": "https://github.com/apache/answer/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "0d958e007963c1b1a8aed8d036a83d937e145ba0",
+    "evidence": [
+      "[![LICENSE](https://img.shields.io/github/license/apache/answer)](https://github.com/apache/answer/blob/main/LICENSE)",
+      "### Running with docker",
+      "docker run -d -p 9080:80 -v answer-data:/data --name answer apache/answer:2.0.3",
+      "## License",
+      "[Apache License 2.0](https://github.com/apache/answer/blob/main/LICENSE)"
+    ]
+  },
+  {
+    "repository": "BookStackApp/BookStack",
+    "source": "https://github.com/BookStackApp/BookStack/blob/development/readme.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "297d26559871362356f6a5d210424e1a45f159dc",
+    "evidence": [
+      "[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://codeberg.org/bookstack/bookstack/src/branch/development/LICENSE)",
+      "## ⚖️ License",
+      "The BookStack source is provided under the [MIT License](https://codeberg.org/bookstack/bookstack/src/branch/development/LICENSE). ",
+      "The libraries used by, and included with, BookStack are provided under their own licenses and copyright.",
+      "The licenses for many of our core dependencies can be found in the attribution list below, but this is not an exhaustive list of all projects used within BookStack. ",
+      "* [Laravel](http://laravel.com/) - _[MIT](https://github.com/laravel/framework/blob/v8.82.0/LICENSE.md)_",
+      "* [TinyMCE](https://www.tinymce.com/) - _[MIT](https://github.com/tinymce/tinymce/blob/develop/LICENSE.TXT)_",
+      "* [Lexical](https://lexical.dev/) - _[MIT](https://github.com/facebook/lexical/blob/main/LICENSE)_",
+      "* [CodeMirror](https://codemirror.net) - _[MIT](https://github.com/codemirror/CodeMirror/blob/master/LICENSE)_",
+      "* [Sortable](https://github.com/SortableJS/Sortable) - _[MIT](https://github.com/SortableJS/Sortable/blob/master/LICENSE)_",
+      "* [Google Material Icons](https://github.com/google/material-design-icons) - _[Apache-2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)_",
+      "* [markdown-it](https://github.com/markdown-it/markdown-it) and [markdown-it-task-lists](https://github.com/revin/markdown-it-task-lists) - _[MIT](https://github.com/markdown-it/markdown-it/blob/master/LICENSE) and [ISC](https://github.com/revin/markdown-it-task-lists/blob/master/LICENSE)_",
+      "* [Dompdf](https://github.com/dompdf/dompdf) - _[LGPL v2.1](https://github.com/dompdf/dompdf/blob/master/LICENSE.LGPL)_",
+      "* [KnpLabs/snappy](https://github.com/KnpLabs/snappy) - _[MIT](https://github.com/KnpLabs/snappy/blob/master/LICENSE)_",
+      "* [WKHTMLtoPDF](http://wkhtmltopdf.org/index.html) - _[LGPL v3.0](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/LICENSE)_",
+      "* [diagrams.net](https://github.com/jgraph/drawio) - _[Embedded Version Terms](https://www.diagrams.net/trust/) / [Source Project - Apache-2.0](https://github.com/jgraph/drawio/blob/dev/LICENSE)_",
+      "* [SAML PHP Toolkit](https://github.com/SAML-Toolkits/php-saml) - _[MIT](https://github.com/SAML-Toolkits/php-saml/blob/master/LICENSE)_",
+      "* [League/CommonMark](https://commonmark.thephpleague.com/) - _[BSD-3-Clause](https://github.com/thephpleague/commonmark/blob/2.2/LICENSE)_",
+      "* [League/Flysystem](https://flysystem.thephpleague.com) - _[MIT](https://github.com/thephpleague/flysystem/blob/3.x/LICENSE)_",
+      "* [League/html-to-markdown](https://github.com/thephpleague/html-to-markdown) - _[MIT](https://github.com/thephpleague/html-to-markdown/blob/master/LICENSE)_",
+      "* [League/oauth2-client](https://oauth2-client.thephpleague.com/) - _[MIT](https://github.com/thephpleague/oauth2-client/blob/master/LICENSE)_",
+      "* [pragmarx/google2fa](https://github.com/antonioribeiro/google2fa) - _[MIT](https://github.com/antonioribeiro/google2fa/blob/8.x/LICENSE.md)_"
+    ]
+  },
+  {
+    "repository": "docmost/docmost",
+    "source": "https://github.com/docmost/docmost/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "f09680e14205fbcd14e9ec75167534c72a5b546a",
+    "evidence": [
+      "### License",
+      "Docmost core is licensed under the open-source AGPL 3.0 license.  ",
+      "Enterprise features are available under an enterprise license (Enterprise Edition).  ",
+      "All files in the following directories are licensed under the Docmost Enterprise license defined in `packages/ee/License`."
+    ]
+  },
+  {
+    "repository": "formbricks/formbricks",
+    "source": "https://github.com/formbricks/formbricks/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "251685c7bff8f3325e9056b8ffdd7f824034ea7c",
+    "evidence": [
+      "<a href=\"https://github.com/formbricks/formbricks/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-AGPL-purple\" alt=\"License\"></a> <a href=\"https://github.com/formbricks/formbricks/stargazers\"><img src=\"https://img.shields.io/github/stars/formbricks/formbricks?logo=github\" alt=\"Github Stars\"></a>",
+      "- [License](#license)",
+      "Formbricks is available Open-Source under AGPLv3 license. You can host Formbricks on your own servers using Docker without a subscription.",
+      "#### Docker",
+      "To get started with self-hosting with Docker, take a look at our [self-hosting docs](https://formbricks.com/docs/self-hosting/deployment).",
+      "- [Docker](https://www.docker.com/) - to run the local development stack, including PostgreSQL, SpiceDB, MailHog, Valkey, RustFS, Hub and Cube services",
+      "   `pnpm go` runs `pnpm db:up` first. That command creates `.env` from `.env.example` when needed, generates the required local secrets, and starts the Docker services from `docker-compose.dev.yml`.",
+      "<a id=\"license\"></a>",
+      "## 👩‍⚖️ License",
+      "### The AGPL Formbricks Core",
+      "The Formbricks core application is licensed under the [AGPLv3 Open Source License](https://github.com/formbricks/formbricks/blob/main/LICENSE). The core application is fully functional and includes everything you need to design & run link surveys, website surveys and in-app surveys. You can use the software for free for personal and commercial use. You're also allowed to create and distribute modified versions as long as you document the changes you make incl. date. The AGPL license requires you to publish your modified version under the AGPLv3 license as well.",
+      "Additional to the AGPL licensed Formbricks core, this repository contains code licensed under an Enterprise license. The [code](https://github.com/formbricks/formbricks/tree/main/apps/web/modules/ee) and [license](https://github.com/formbricks/formbricks/blob/main/apps/web/modules/ee/LICENSE) for the enterprise functionality can be found in the `/apps/web/modules/ee` folder of this repository. This additional functionality is not part of the AGPLv3 licensed Formbricks core and is designed to meet the needs of larger teams and enterprises. This advanced functionality is already included in the Docker images, but you need an [Enterprise License Key](https://formbricks.com/docs/self-hosting/enterprise) to unlock it.",
+      "We currently do not offer Formbricks white-labeled. That means that we don't sell a license which let's other companies resell Formbricks to third parties under their name nor take parts (like the survey editor) out of Formbricks to add to their own software products. Any other needs? [Send us an email](mailto:hola@formbricks.com)."
+    ]
+  },
+  {
+    "repository": "FreshRSS/FreshRSS",
+    "source": "https://github.com/FreshRSS/FreshRSS/blob/edge/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "e4aab1acfe8dda723992f9650d8402dd6f330e2c",
+    "evidence": [
+      "* License: [GNU AGPL 3](https://www.gnu.org/licenses/agpl-3.0.html)",
+      "\t* Extension for database: [PDO_PGSQL](https://www.php.net/pdo-pgsql) or [PDO_SQLite](https://www.php.net/pdo-sqlite) or [PDO_MySQL](https://www.php.net/pdo-mysql)",
+      "* PostgreSQL 10+ or SQLite or MariaDB 10.6+ or MySQL 8.0+",
+      "| [<img src=\"https://www.docker.com/app/uploads/2022/03/horizontal-logo-monochromatic-white.png\" width=\"160\" alt=\"Docker\" />](./Docker/) | [<img src=\"https://install-app.yunohost.org/install-with-yunohost.png\" width=\"160\" alt=\"YunoHost\" />](https://install-app.yunohost.org/?app=freshrss) | [<img src=\"https://elest.io/images/logos/deploy-to-elestio-btn.png\" width=\"160\" alt=\"Elestio\" />](https://elest.io/open-source/freshrss) |"
+    ]
+  },
+  {
+    "repository": "gethomepage/homepage",
+    "source": "https://github.com/gethomepage/homepage/blob/dev/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "633bc50f8a51972a5c163ef7846f80ff235e5f35",
+    "evidence": [
+      "  A modern, <em>fast</em>, secure <em>fully proxied</em>, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.",
+      "  <a href=\"https://github.com/gethomepage/homepage/actions/workflows/docker-publish.yml\"><img alt=\"GitHub Workflow Status (with event)\" src=\"https://img.shields.io/github/actions/workflow/status/gethomepage/homepage/docker-publish.yml\"></a>",
+      "- **Docker Integration** - Container status and stats. Automatic service discovery via labels.",
+      "## Docker Integration",
+      "Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker Service Discovery](https://gethomepage.dev/configs/docker/#automatic-service-discovery) page for more information.",
+      "## With Docker",
+      "Using docker compose:",
+      "      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts",
+      "      - /var/run/docker.sock:/var/run/docker.sock:ro # optional, for docker integrations",
+      "or docker run:",
+      "docker run --name homepage \\",
+      "  -e HOMEPAGE_ALLOWED_HOSTS=gethomepage.dev \\",
+      "  -v /var/run/docker.sock:/var/run/docker.sock:ro \\",
+      "HOMEPAGE_ALLOWED_HOSTS=gethomepage.dev:1234 pnpm start"
+    ]
+  },
+  {
+    "repository": "mealie-recipes/mealie",
+    "source": "https://github.com/mealie-recipes/mealie/blob/mealie-next/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "9e91e04e1d07af03c08f5be6ee14f11fc411b592",
+    "evidence": [
+      "[![AGPL License][license-shield]][license-url]",
+      "[![Docker Pulls][docker-pull]][docker-url]",
+      "Mealie is a self hosted recipe manager, meal planner and shopping list with a RestAPI backend and a reactive frontend built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the URL and Mealie will automatically import the relevant data, or add a family recipe with the UI editor. Mealie also provides an API for interactions from 3rd party applications.",
+      "- Docker: Easy **Docker** deployment",
+      "<!-- LICENSE -->",
+      "## License",
+      "Distributed under the AGPL License. See `LICENSE` for more information.",
+      "Thanks to Depot for providing build instances for our Docker image builds.",
+      "[docker-pull]: https://img.shields.io/docker/pulls/hkotel/mealie?style=flat-square",
+      "[docker-url]: https://hub.docker.com/r/hkotel/mealie",
+      "[license-shield]: https://img.shields.io/github/license/mealie-recipes/mealie.svg?style=flat-square",
+      "[license-url]: https://github.com/mealie-recipes/mealie/blob/mealie-next/LICENSE"
+    ]
+  },
+  {
+    "repository": "onwidget/astrowind",
+    "source": "https://github.com/arthelokyo/astrowind/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "d0ef70ca4bf235636be1b2d865d947e28c304e24",
+    "evidence": [
+      "[![License](https://img.shields.io/github/license/arthelokyo/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/arthelokyo/astrowind/blob/main/LICENSE.md)",
+      "  - [Deploy](#deploy)",
+      "- [License](#license)",
+      "| `npm run preview`   | Preview your build locally, before deploying       |",
+      "  base: '/' # Change this if you need to deploy to Github Pages, for example",
+      "### Deploy",
+      "#### Deploy to production (manual)",
+      "Now, your website is ready to be deployed. All generated files are located at",
+      "`dist` folder, which you can deploy the folder to any hosting service you",
+      "#### Deploy to Netlify",
+      "Clone this repository on your own GitHub account and deploy it to Netlify:",
+      "[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/arthelokyo/astrowind)",
+      "#### Deploy to Vercel",
+      "Clone this repository on your own GitHub account and deploy to Vercel:",
+      "[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Farthelokyo%2Fastrowind)",
+      "#### Deploy to Cloudflare",
+      "Clone this repository on your own GitHub account and deploy it to Cloudflare Workers (static assets, no adapter needed; the `wrangler.jsonc` in the repo points Cloudflare at `dist/`):",
+      "[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/arthelokyo/astrowind)",
+      "**How do I disable the blog, change the Open Graph image, deploy under a sub-path, connect a CMS, deploy to Cloudflare…?**",
+      "## License",
+      "**AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details."
+    ]
+  },
+  {
+    "repository": "satnaing/astro-paper",
+    "source": "https://github.com/satnaing/astro-paper/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "a2a295fe9972d28cefadf9798f329f4cc1482131",
+    "evidence": [
+      "![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)",
+      "**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  ",
+      "| `pnpm preview`   | Preview your build locally, before deploying                                                                                     |",
+      "## 📜 License",
+      "Licensed under the MIT License, Copyright © 2026"
+    ]
+  },
+  {
+    "repository": "schlagmichdoch/PairDrop",
+    "source": "https://github.com/schlagmichdoch/PairDrop/blob/master/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "3400704648eff77ec053985e0733800d13ab6d8c",
+    "evidence": [
+      "* Devices outside of your local network that are behind a NAT are auto-connected via the PairDrop TURN server.",
+      "* When hosting PairDrop yourself, you can [set your own STUN/TURN servers](docs/host-your-own.md#specify-stunturn-servers)",
+      "* [NoSleep](https://github.com/richtr/NoSleep.js) display sleep, add wake lock ([MIT](licenses/MIT-NoSleep))",
+      "* [heic2any](https://github.com/alexcorvi/heic2any) HEIC/HEIF to PNG/GIF/JPEG ([MIT](licenses/MIT-heic2any))",
+      "[Host your own instance with Docker or Node.js](docs/host-your-own.md)."
+    ]
+  },
+  {
+    "repository": "sissbruecker/linkding",
+    "source": "https://github.com/sissbruecker/linkding/blob/master/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "89e357fd73bd2913d838fb153a97691a3229f62d",
+    "evidence": [
+      "It's designed be to be minimal, fast, and easy to set up using Docker.",
+      "This sets up a virtual environment using uv, installs NPM dependencies and runs migrations to create the initial database."
+    ]
+  },
+  {
+    "repository": "withastro/starlight",
+    "source": "https://github.com/withastro/starlight/blob/main/README.md",
+    "checkedAt": "2026-11-09",
+    "readmeSha": "2ffc1bbe66e4f6b0ca398350f8d3fedfe473a72c",
+    "evidence": ["## License"]
+  }
+]

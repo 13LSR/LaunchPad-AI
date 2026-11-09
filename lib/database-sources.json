@@ -1,0 +1,142 @@
+[
+  {
+    "id": "database-0",
+    "name": "Neon",
+    "checkedAt": "2026-11-09",
+    "source": "https://neon.com/pricing",
+    "evidence": "Free: 100 projects; 100 CU-hours per project/month; 1 GB Postgres per project, 20 GB account total. Exceed compute: suspended until next billing period; exceed storage: blocks writes. Idle compute scales to zero after 5 minutes; history window 6 hours (1 GB limit)."
+  },
+  {
+    "id": "database-1",
+    "name": "Supabase",
+    "checkedAt": "2026-11-09",
+    "source": "https://supabase.com/pricing",
+    "evidence": "Free: 500 MB database size, 1 GB file storage, 5 GB egress, 5 GB cached egress; paused after 1 week; limit 2 active projects."
+  },
+  {
+    "id": "database-2",
+    "name": "Cloudflare D1",
+    "checkedAt": "2026-11-09",
+    "source": "https://developers.cloudflare.com/d1/platform/pricing/",
+    "evidence": "Workers Free: rows read 5 million/day; rows written 100,000/day; storage 5 GB total; databases 10."
+  },
+  {
+    "id": "database-3",
+    "name": "Turso",
+    "checkedAt": "2026-11-09",
+    "source": "https://turso.tech/pricing",
+    "evidence": "Free: 100 databases; 5GB; 500 million monthly rows read; 10 million written; 3GB monthly syncs; 1 day restore."
+  },
+  {
+    "id": "database-4",
+    "name": "TiDB Cloud",
+    "checkedAt": "2026-11-09",
+    "source": "https://www.pingcap.com/pricing/",
+    "evidence": "Each of up to five eligible MySQL-compatible instances includes 5 GiB row, 5 GiB columnar storage and 50M Request Units monthly."
+  },
+  {
+    "id": "database-5",
+    "name": "Aiven for PostgreSQL",
+    "checkedAt": "2026-11-09",
+    "source": "https://aiven.io/pricing",
+    "evidence": "PostgreSQL Free $0/month; 1 GB RAM per VM and 1 GB total storage. Free plans have no time limitations."
+  },
+  {
+    "id": "database-6",
+    "name": "Filess.io",
+    "checkedAt": "2026-11-09",
+    "source": "https://filess.io/",
+    "evidence": "Free €0: 2 databases; 10MB storage/db; weekly backups; no credit card required."
+  },
+  {
+    "id": "database-7",
+    "name": "MongoDB Atlas",
+    "checkedAt": "2026-11-09",
+    "source": "https://www.mongodb.com/pricing",
+    "evidence": "Free $0/hour; 512MB storage; shared RAM; shared vCPU."
+  },
+  {
+    "id": "database-8",
+    "name": "Firebase Firestore",
+    "checkedAt": "2026-11-09",
+    "source": "https://firebase.google.com/pricing",
+    "evidence": "Standard: 1 GiB; 10 GiB monthly network egress; 20K writes/day, 50K reads/day, 20K deletes/day. Cloud Storage Spark: Not applicable."
+  },
+  {
+    "id": "database-9",
+    "name": "Upstash Redis",
+    "checkedAt": "2026-11-09",
+    "source": "https://upstash.com/pricing/redis",
+    "evidence": "Free $0: 250 MB data, 10 GB monthly bandwidth, 500K commands, 1 Free DB."
+  },
+  {
+    "id": "database-10",
+    "name": "Cloudflare KV",
+    "checkedAt": "2026-11-09",
+    "source": "https://developers.cloudflare.com/workers/platform/pricing/",
+    "evidence": "KV Free: keys read 100,000/day, written/deleted/list each 1,000/day; stored data 1 GB."
+  },
+  {
+    "id": "database-11",
+    "name": "Redis Cloud",
+    "checkedAt": "2026-11-09",
+    "source": "https://redis.io/pricing/",
+    "evidence": "Free always $0; 30 MB single DB; shared cloud; best-effort SLA, community support."
+  },
+  {
+    "id": "database-12",
+    "name": "Pinecone",
+    "checkedAt": "2026-11-09",
+    "source": "https://www.pinecone.io/pricing/",
+    "evidence": "Starter Free; Builder $20/month. Starter database storage 2 GB, write units 2M/mo, read units 1M/mo, egress 1GB/mo."
+  },
+  {
+    "id": "database-13",
+    "name": "Qdrant Cloud",
+    "checkedAt": "2026-11-09",
+    "source": "https://qdrant.tech/pricing/",
+    "evidence": "Free tier single node: 0.5 vCPU / 1GB RAM / 4GB disk; for testing and prototypes."
+  },
+  {
+    "id": "database-14",
+    "name": "Zilliz Cloud",
+    "checkedAt": "2026-11-09",
+    "source": "https://zilliz.com/pricing",
+    "evidence": "Free $0: 5 GB storage, 2.5M vCUs per month, up to 5 collections."
+  },
+  {
+    "id": "database-15",
+    "name": "Cloudflare R2",
+    "checkedAt": "2026-11-09",
+    "source": "https://developers.cloudflare.com/r2/pricing/",
+    "evidence": "Standard free: 10 GB-month; Class A 1M; Class B 10M; egress free. Infrequent Access does not qualify."
+  },
+  {
+    "id": "database-16",
+    "name": "UploadThing",
+    "checkedAt": "2026-11-09",
+    "source": "https://uploadthing.com/#pricing",
+    "evidence": "2GB App $0/month, storage shared between all apps, unlimited uploads and downloads."
+  },
+  {
+    "id": "database-17",
+    "name": "Cloudinary",
+    "checkedAt": "2026-11-09",
+    "source": "https://cloudinary.com/pricing",
+    "evidence": "Free 25 monthly credits. One credit: 1000 transformations OR 1GB managed storage OR 1GB image bandwidth."
+  },
+  {
+    "id": "database-18",
+    "name": "Backblaze B2",
+    "checkedAt": "2026-11-09",
+    "source": "https://www.backblaze.com/cloud-storage/pricing",
+    "evidence": "First 10GB storage always free; 3x average storage free egress; excess $0.01/GB; paid storage starts $6.95/TB/mo."
+  },
+  {
+    "id": "database-19",
+    "name": "CloudBase 数据库与云存储",
+    "checkedAt": "2026-11-09",
+    "source": "https://cloud.tencent.com/document/product/876/127357",
+    "evidence": "Official page, updated 2026-10-26, confirmed through rendered browser: free experience 3000 points/month; manual 6-month renewal excludes WeChat experience; after miniapp publication expiry becomes 15th day after launch, followed by service suspension/isolation and destruction if not converted to paid during isolation. New MySQL provisioning ended 2026-10-20; document DB and PostgreSQL are distinct environment types."
+  }
+]

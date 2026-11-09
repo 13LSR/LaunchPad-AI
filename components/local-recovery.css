@@ -1,0 +1,49 @@
+.local-recovery {
+  font-size: 14px;
+  line-height: 1.9;
+}
+.local-recovery article {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+}
+.local-recovery h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.local-recovery h4 {
+  margin: 20px 0 8px;
+  font-weight: 550;
+}
+.local-recovery p {
+  margin: 10px 0;
+  color: var(--muted-foreground);
+}
+.local-recovery label {
+  display: block;
+  font-weight: 550;
+  margin: 18px 0;
+}
+.local-recovery .tool-input {
+  display: block;
+  margin-top: 8px;
+  min-height: 44px;
+  font-size: 14px;
+  min-width: 0;
+}
+.local-recovery .code-block pre {
+  overflow-wrap: anywhere;
+}
+.local-recovery .copy-button {
+  min-width: 40px;
+  min-height: 40px;
+}
+.local-recovery summary {
+  cursor: pointer;
+  padding-block: 14px;
+}
+.local-recovery a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

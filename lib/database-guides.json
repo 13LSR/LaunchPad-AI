@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Neon",
+    "category": "表格数据",
+    "tags": ["PostgreSQL", "用户与订单"],
+    "description": "把用户、文章、订单整理成互相关联的数据表。适合项目已经使用 PostgreSQL，又不想自己维护数据库的情况。",
+    "allowance": "Free：每个项目 1 GB PostgreSQL 存储、每月 100 CU-hours；最多 100 个项目，账号总存储上限 20 GB",
+    "limit": "CU-hours 是计算资源用量。闲置 5 分钟后暂停并按需唤醒；用完月计算量会暂停计算，超过项目或账号存储上限会阻止写入。免费恢复窗口最长 6 小时。",
+    "useCases": [
+      "报名系统：保存报名人和报名状态",
+      "个人产品：保存账号、文章和订单"
+    ],
+    "setupHint": "让 AI 查看项目是否使用 PostgreSQL，并按运行方式选择普通连接或连接池地址。",
+    "scenarioIds": ["scenario-form", "prompts-18"],
+    "cloudIds": ["cloud-0", "cloud-9"],
+    "source": "https://neon.com/pricing"
+  },
+  {
+    "name": "Supabase",
+    "category": "登录与数据一起配",
+    "tags": ["PostgreSQL", "登录", "文件"],
+    "description": "同时提供数据库、用户登录和文件空间。适合想把注册、登录、保存记录一起接入的网站。",
+    "allowance": "Free：最多 2 个活跃项目；每项目 500 MB 数据库；另含 1 GB 文件存储",
+    "limit": "免费计划含每月 5 万活跃用户、5 GB 出站流量及 5 GB 缓存出站流量。项目闲置一周会暂停；免费版不含自动备份。",
+    "useCases": [
+      "会员网站：注册、登录、保存个人资料",
+      "小型社区：文章、评论和头像"
+    ],
+    "setupHint": "让 AI 分清数据库连接地址、项目地址和密钥，设置“每个人只能访问自己的私密记录”的规则。",
+    "scenarioIds": ["prompts-18", "scenario-forum"],
+    "cloudIds": ["cloud-0", "cloud-1"],
+    "source": "https://supabase.com/pricing"
+  },
+  {
+    "name": "Cloudflare D1",
+    "category": "表格数据",
+    "tags": ["SQLite", "Cloudflare Workers"],
+    "description": "给 Cloudflare Workers 项目配套使用的数据库。适合轻量表格记录，不用另外维护一台数据库服务器。",
+    "allowance": "Free：总存储 5 GB，最多 10 个库；每天读 500 万行、写 10 万行",
+    "limit": "按数据库实际读取和写入的行数计量，搜索一次可能读取很多行。每日额度耗尽后相关操作报错，等额度重置或升级。",
+    "useCases": [
+      "短链接工具：保存链接和点击记录",
+      "轻量留言板：保存留言、分类和状态"
+    ],
+    "setupHint": "它通常通过 Workers 的数据库绑定接入，不是填写 PostgreSQL 的 DATABASE_URL。",
+    "scenarioIds": ["prompts-11", "scenario-anonymous"],
+    "cloudIds": ["cloud-1"],
+    "source": "https://developers.cloudflare.com/d1/platform/pricing/"
+  },
+  {
+    "name": "Turso",
+    "category": "表格数据",
+    "tags": ["SQLite", "libSQL"],
+    "description": "把 SQLite 类项目的数据放到云端，适合小型应用，或需要为不同用户分开建库的产品。",
+    "allowance": "Free：100 个库、5 GB 存储；每月读 5 亿行、写 1,000 万行",
+    "limit": "免费月同步量 3 GB，时间点恢复窗口 1 天。已有普通 SQLite 文件不能只改地址就上线，需要接入对应驱动。",
+    "useCases": ["轻量内容站：保存文章和分类", "按用户分库存储的应用原型"],
+    "setupHint": "让 AI 识别项目的 SQLite 用法，接入 libSQL 地址与访问令牌，再迁移一份测试数据。",
+    "scenarioIds": ["prompts-4", "scenario-admin"],
+    "cloudIds": ["cloud-0", "cloud-1"],
+    "source": "https://turso.tech/pricing"
+  },
+  {
+    "name": "TiDB Cloud",
+    "category": "表格数据",
+    "tags": ["MySQL 兼容", "Starter"],
+    "description": "适合已经按 MySQL 编写的项目。能够保存用户、商品和订单，后续可以按用量扩展。",
+    "allowance": "Starter：每个符合条件的 MySQL 兼容实例含 5 GiB 行存储、5 GiB 列存储、每月 5,000 万 RU",
+    "limit": "每组织最多 5 个实例分别享用额度，不能全部集中给一个库。RU 是平台计算工作量的单位；免费额度以上按地区及用量计费。",
+    "useCases": [
+      "商品与订单管理：沿用 MySQL 数据结构",
+      "已有 MySQL 项目迁移到托管数据库"
+    ],
+    "setupHint": "让 AI 先检查 MySQL 驱动与 SQL 兼容性，再配置加密连接和消费上限。",
+    "scenarioIds": ["prompts-21", "scenario-admin"],
+    "cloudIds": ["cloud-9", "cloud-11"],
+    "source": "https://www.pingcap.com/pricing/"
+  },
+  {
+    "name": "Aiven for PostgreSQL",
+    "category": "表格数据",
+    "tags": ["PostgreSQL", "托管数据库"],
+    "description": "提供托管 PostgreSQL。适合已有标准数据库连接代码，想先用小规模数据验证项目。",
+    "allowance": "PostgreSQL Free：1 GB 内存、1 GB 存储，免费计划没有固定试用期限",
+    "limit": "这里列的是 PostgreSQL 免费计划，不是所有 Aiven 产品都免费。资源有限，适合学习、原型和演示；正式业务按备份与可用性需求选方案。",
+    "useCases": ["管理后台原型：存少量业务记录", "学习 SQL：练习数据表与查询"],
+    "setupHint": "让 AI 使用控制台给出的主机、端口与加密连接配置，不要照搬其他数据库的端口。",
+    "scenarioIds": ["scenario-admin", "scenario-form"],
+    "cloudIds": ["cloud-9", "cloud-14"],
+    "source": "https://aiven.io/pricing"
+  },
+  {
+    "name": "Filess.io",
+    "category": "多种数据库",
+    "tags": ["PostgreSQL", "MySQL", "MongoDB"],
+    "description": "提供多种数据库引擎的小容量托管服务。适合验证连接、练习读写和很小的演示数据。",
+    "allowance": "Free：2 个数据库，每库 10 MB；无需信用卡，包含每周备份",
+    "limit": "10 MB 容量很小，不能当作大量用户数据或文件的存储空间。共享资源；重要业务需要更充足的容量和恢复能力。",
+    "useCases": [
+      "第一次接数据库：练习新增和读取记录",
+      "课堂演示：放少量示例数据"
+    ],
+    "setupHint": "先让 AI 看项目需要 PostgreSQL、MySQL 还是 MongoDB，再创建同一种引擎；这些连接地址不能互换。",
+    "scenarioIds": ["scenario-form", "scenario-anonymous"],
+    "cloudIds": ["cloud-9", "cloud-11"],
+    "source": "https://filess.io/"
+  },
+  {
+    "name": "MongoDB Atlas",
+    "category": "灵活记录与实时同步",
+    "tags": ["MongoDB", "文档数据库"],
+    "description": "一条记录可以包含多层字段，比如文章、标签和附加信息。适合项目已经使用 MongoDB 的情况。",
+    "allowance": "Free：512 MB 存储，共享内存与计算资源",
+    "limit": "免费层面向学习和探索。数据结构、查询方式与 PostgreSQL 不同，不能直接替换；连接还受账号权限与网络访问规则控制。",
+    "useCases": [
+      "内容社区：保存文章和灵活的附加字段",
+      "采集工具：保存结构各不相同的记录"
+    ],
+    "setupHint": "让 AI 配置 MongoDB 连接串、数据库用户和允许连接的网络，再验证测试记录。",
+    "scenarioIds": ["scenario-forum", "prompts-24"],
+    "cloudIds": ["cloud-9", "cloud-11"],
+    "source": "https://www.mongodb.com/pricing"
+  },
+  {
+    "name": "Firebase Firestore",
+    "category": "灵活记录与实时同步",
+    "tags": ["文档数据库", "实时同步", "手机应用"],
+    "description": "方便网页和手机应用同步记录，例如另一台设备立刻看到新消息或任务状态。",
+    "allowance": "Standard 免费额度：1 GiB 存储；每天读 5 万、写 2 万、删除 2 万条文档",
+    "limit": "另含每月 10 GiB 出站流量。列表刷新和实时监听都会消耗读取量；文件存储是另一项服务，Cloud Storage 需要 Blaze 计费计划。",
+    "useCases": ["手机任务应用：跨设备同步待办", "实时协作原型：同步用户状态"],
+    "setupHint": "让 AI 通过 Firebase SDK 接入，并设置每个用户能读写哪些记录；不要套用 DATABASE_URL。",
+    "scenarioIds": ["prompts-26", "scenario-realtime"],
+    "cloudIds": ["cloud-0", "cloud-2"],
+    "source": "https://firebase.google.com/pricing"
+  },
+  {
+    "name": "Upstash Redis",
+    "category": "缓存与访问限流",
+    "tags": ["Redis", "HTTP 接口"],
+    "description": "保存需要快速取出的短期数据，比如验证码、临时会话和访问次数，常作为主数据库的搭档。",
+    "allowance": "Free：1 个数据库，250 MB；每月 50 万条命令、10 GB 带宽",
+    "limit": "一次网页操作可能执行多条 Redis 命令。它不自动提供会员系统或业务数据表；长期重要记录先明确持久化与备份方式。",
+    "useCases": [
+      "AI 聊天助手：限制单个用户调用频率",
+      "登录流程：保存短期验证码与会话"
+    ],
+    "setupHint": "让 AI 按项目所用库选择 HTTP 地址与令牌，或 Redis 连接方式，并为临时数据设置过期时间。",
+    "scenarioIds": ["prompts-13", "prompts-18"],
+    "cloudIds": ["cloud-0", "cloud-1"],
+    "source": "https://upstash.com/pricing/redis"
+  },
+  {
+    "name": "Cloudflare KV",
+    "category": "缓存与访问限流",
+    "tags": ["键值存储", "Workers"],
+    "description": "按名字取出一段内容，适合经常读取、很少修改的设置和缓存。",
+    "allowance": "Free：1 GB；每天读 10 万次，写入、删除和列举各 1,000 次",
+    "limit": "更改不会立即同步到所有访问地点，不适合余额、库存或精确实时计数。某类操作超过日限额后会失败。",
+    "useCases": [
+      "网址导航：缓存公开分类和链接配置",
+      "消息机器人：读取不常修改的回复模板"
+    ],
+    "setupHint": "让 AI 把 KV 命名空间绑定到 Workers，并说明哪些数据允许短时间读取到旧版本。",
+    "scenarioIds": ["prompts-5", "scenario-webhook"],
+    "cloudIds": ["cloud-1"],
+    "source": "https://developers.cloudflare.com/workers/platform/pricing/"
+  },
+  {
+    "name": "Redis Cloud",
+    "category": "缓存与访问限流",
+    "tags": ["Redis", "缓存"],
+    "description": "Redis 官方托管服务。适合已有 Redis 连接代码，需要缓存、队列辅助或临时数据的后端。",
+    "allowance": "Free：1 个 30 MB 数据库，共享云资源",
+    "limit": "免费版为尽力提供服务与社区支持，空间小。它和 Upstash 的 HTTP 接口不是同一种连接方式，项目需要兼容 Redis 的客户端。",
+    "useCases": ["后端原型：缓存查询结果", "登录服务：保存短期会话数据"],
+    "setupHint": "让 AI 检查 Redis 客户端和连接方式，配置服务端凭据，再给临时数据加过期时间。",
+    "scenarioIds": ["scenario-admin", "prompts-18"],
+    "cloudIds": ["cloud-9", "cloud-11"],
+    "source": "https://redis.io/pricing/"
+  },
+  {
+    "name": "Pinecone",
+    "category": "AI 查找资料",
+    "tags": ["向量检索", "知识库问答"],
+    "description": "帮 AI 从大量文档片段里找到意思相近的内容。保存的是用于检索的数据，不会代替原始文件和用户数据库。",
+    "allowance": "Starter 免费：最多 2 GB 数据；每月 200 万写入单位、100 万读取单位",
+    "limit": "免费出站量每月 1 GB。Builder 为 $20/月付费计划。向量生成和模型回答可能另收费，读取单位不等于一次聊天。",
+    "useCases": [
+      "知识库问答：找出与问题相关的文档段落",
+      "语义搜索：按意思查找内容"
+    ],
+    "setupHint": "让 AI 确认向量模型与维度，再建索引；原始 PDF 和账号记录分别保存到文件存储和业务数据库。",
+    "scenarioIds": ["prompts-14"],
+    "cloudIds": ["cloud-0", "cloud-14"],
+    "source": "https://www.pinecone.io/pricing/"
+  },
+  {
+    "name": "Qdrant Cloud",
+    "category": "AI 查找资料",
+    "tags": ["向量检索", "知识库问答"],
+    "description": "把 Qdrant 向量搜索引擎交给云平台维护，适合文档问答和相似内容推荐的原型。",
+    "allowance": "Free：单节点，0.5 vCPU、1 GB 内存、4 GB 磁盘",
+    "limit": "免费规格面向测试和原型，不是高可用集群。可存多少条向量取决于维度和附加字段，不能只凭磁盘大小估算文档数量。",
+    "useCases": ["文档助手：搜索相关段落", "相似作品推荐：按内容相似度查找"],
+    "setupHint": "让 AI 配置集群地址与 API Key，并用少量样本验证搜索是否找得到正确内容。",
+    "scenarioIds": ["prompts-14"],
+    "cloudIds": ["cloud-9", "cloud-14"],
+    "source": "https://qdrant.tech/pricing/"
+  },
+  {
+    "name": "Zilliz Cloud",
+    "category": "AI 查找资料",
+    "tags": ["Milvus", "向量检索"],
+    "description": "Milvus 的托管服务。适合使用 Milvus 生态的 AI 搜索、知识库问答和推荐应用。",
+    "allowance": "Free：5 GB 存储、每月 250 万 vCU、最多 5 个集合",
+    "limit": "vCU 是平台衡量计算用量的单位，不是文件数。免费方案面向学习与个人项目；Standard 的 30 天试用是另一种计划。",
+    "useCases": ["知识库原型：检索文档片段", "推荐应用：查找相似内容"],
+    "setupHint": "让 AI 识别是否使用 Milvus 客户端，配置服务地址、令牌、向量维度和集合。",
+    "scenarioIds": ["prompts-14"],
+    "cloudIds": ["cloud-9", "cloud-14"],
+    "source": "https://zilliz.com/pricing"
+  },
+  {
+    "name": "Cloudflare R2",
+    "category": "图片与文件",
+    "tags": ["对象存储", "S3 兼容", "图片与视频"],
+    "description": "存放用户上传的图片、视频和 PDF。数据库只需要记录文件地址及所属用户。",
+    "allowance": "Standard 每月含 10 GB-month 存储、100 万次 A 类操作、1,000 万次 B 类操作",
+    "limit": "公网出站流量免费；超额存储和文件操作收费。GB-month 是按存储量和时间折算，A 类包含上传、B 类包含读取；低频存储不享用这份免费额度。",
+    "useCases": [
+      "图片工作台：保存生成结果和上传原图",
+      "知识库：保存用户上传的 PDF"
+    ],
+    "setupHint": "让 AI 创建上传流程，公共配图与私人文件分开；私人文件用有有效期的访问链接。",
+    "scenarioIds": ["prompts-16", "prompts-14"],
+    "cloudIds": ["cloud-1", "cloud-0"],
+    "source": "https://developers.cloudflare.com/r2/pricing/"
+  },
+  {
+    "name": "UploadThing",
+    "category": "图片与文件",
+    "tags": ["文件上传", "Next.js"],
+    "description": "把上传按钮、上传接口和文件存储接起来，适合希望快速给网站加上传功能的人。",
+    "allowance": "Free：所有应用共享 2 GB 存储，上传和下载不限次数",
+    "limit": "2 GB 不是每个应用各有一份。需要在自己的服务端检查登录、文件类型与大小；它不是用来保存订单的数据库。",
+    "useCases": ["个人资料页：上传头像", "报名表：上传附件"],
+    "setupHint": "让 AI 按实际框架接入上传组件和服务端校验，把文件地址保存到现有数据库。",
+    "scenarioIds": ["scenario-forum", "scenario-form"],
+    "cloudIds": ["cloud-0", "cloud-2"],
+    "source": "https://uploadthing.com/#pricing"
+  },
+  {
+    "name": "Cloudinary",
+    "category": "图片与文件",
+    "tags": ["图片处理", "视频", "自动格式"],
+    "description": "除了保存图片，还能按设备生成不同尺寸、裁剪和格式，适合图片较多的网站。",
+    "allowance": "Free：每月 25 credits，由存储、转换和访问流量共同消耗",
+    "limit": "1 credit 可抵 1 GB 存储，或 1 GB 图片流量，或 1,000 次图片/视频转换；不是三项各送 25 份。反复生成不同尺寸也会消耗用量。",
+    "useCases": [
+      "商品展示：按设备提供清晰合适的图片",
+      "作品集：裁剪缩略图、优化加载速度"
+    ],
+    "setupHint": "让 AI 限制允许生成的尺寸和上传范围，接入自动质量与格式选择，并保留原图。",
+    "scenarioIds": ["prompts-3", "prompts-21"],
+    "cloudIds": ["cloud-0", "cloud-2"],
+    "source": "https://cloudinary.com/pricing"
+  },
+  {
+    "name": "Backblaze B2",
+    "category": "图片与文件",
+    "tags": ["对象存储", "备份", "S3 兼容"],
+    "description": "保存大量文件和备份，适合需要兼容 S3 上传工具、长期保留素材的项目。",
+    "allowance": "前 10 GB 存储免费；每月免费出站量为月平均存储量的 3 倍",
+    "limit": "超出免费出站量通常为 $0.01/GB；经指定合作服务分发另有免费出站规则。付费存储当前起价 $6.95/TB/月，操作类型也有各自计价条件。",
+    "useCases": [
+      "媒体项目：归档原始素材",
+      "网站备份：保存数据库导出文件和附件"
+    ],
+    "setupHint": "让 AI 配置限定权限的上传密钥、备份周期和恢复测试；备份不能只确认上传成功。",
+    "scenarioIds": ["prompts-16", "scenario-admin"],
+    "cloudIds": ["cloud-9", "cloud-14"],
+    "source": "https://www.backblaze.com/cloud-storage/pricing"
+  },
+  {
+    "name": "CloudBase 数据库与云存储",
+    "category": "登录与数据一起配",
+    "tags": ["微信小程序", "文档数据库", "PostgreSQL", "文件"],
+    "description": "把微信小程序的登录身份、云函数、记录和上传文件放在同一云环境，减少分别连接多个服务的步骤。",
+    "allowance": "免费体验环境：每月 3,000 资源点，由数据库、文件、函数等共同使用",
+    "limit": "需兑换码且每账号限一个；控制台体验环境可手动续期 6 个月，微信体验版不适用。小程序发布后改为上线第 15 天到期，随后停服隔离，隔离期未转付费会销毁环境。",
+    "useCases": [
+      "微信小程序：用户资料、报名与照片",
+      "小程序业务原型：云函数处理数据"
+    ],
+    "setupHint": "让 AI 先确认文档数据库还是 PostgreSQL、环境 ID 和用户权限。不要把两种数据库当成相同接法。",
+    "scenarioIds": ["scenario-wechat", "scenario-taro"],
+    "cloudIds": ["cloud-21"],
+    "source": "https://cloud.tencent.com/document/product/876/127357",
+    "plan": "试用 / 付费"
+  }
+]

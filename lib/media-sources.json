@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-11-09",
+  "scope": "媒体格式、处理工具和 Next.js 图片部署能力。记录用于内部维护，页面只呈现用途与官方入口。",
+  "sources": [
+    {
+      "url": "https://jakearchibald.github.io/svgomg/",
+      "evidence": "官方工具提供 Open SVG、Show original 与优化选项，包含 viewBox、标题和说明处理；用于已有 SVG 的精简和结果对比。",
+      "supports": ["SVG 工具匹配", "导入、比较与导出操作"]
+    },
+    {
+      "url": "https://ezgif.com/optimize",
+      "evidence": "官方 GIF 优化工具提供压缩、减少颜色或帧等选项及结果 Save；部分功能支持本地处理，普通上传会发送到服务器，不能默认宣称素材始终留在浏览器内。",
+      "supports": ["动图处理流程", "普通上传与本地处理的区别"]
+    },
+    {
+      "url": "https://ezgif.com/about",
+      "evidence": "官方说明覆盖 GIF、动态 WebP、APNG 与 AVIF 等动画处理；按素材格式使用对应入口，避免套用静态图片工具。",
+      "supports": ["Ezgif 的动画支持与适用素材"]
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types",
+      "evidence": "官方格式指南列出 AVIF、WebP、APNG、SVG、JPEG XL 等用途、透明及动画能力；JPEG XL 浏览器支持尚不普遍，应有 fallback。",
+      "supports": ["素材推荐", "图片格式表", "不可统一转换或只改后缀"]
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Containers",
+      "evidence": "媒体兼容性由容器与其中的音视频 codec 共同决定；指南列出 MP4、WebM、WAV、FLAC、Ogg 与 MP3 的差异。",
+      "supports": ["视频容器和编码区别", "音视频格式表"]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GoogleChromeLabs/squoosh/refs/heads/dev/README.md",
+      "evidence": "官方 README：多格式图片压缩 web app；不向服务器发送图片，图片处理在本地进行；有使用情况统计。",
+      "supports": ["Squoosh 用途", "本机压缩与统计边界"]
+    },
+    {
+      "url": "https://saerasoft.com/caesium/",
+      "evidence": "官网介绍实时预览与同时处理多张图片，提供 Windows 和 macOS 桌面下载，并有独立的在线压缩入口。",
+      "supports": ["Caesium 批量图片处理与系统说明"]
+    },
+    {
+      "url": "https://imageoptim.com/mac",
+      "evidence": "Mac 应用默认保留质量，也可启用 Lossy minification；移除 EXIF 等元数据；可在设置中保留版权或相机信息。",
+      "supports": ["ImageOptim 默认无损及可选有损", "原件备份与元数据"]
+    },
+    {
+      "url": "https://handbrake.fr/features.php",
+      "evidence": "官方功能页列出设备预设、MP4/MKV/WebM 容器、H.264 等编码、音轨、字幕、批量队列和尺寸调整。docs 子域抓取不可用，因此以该官方功能页核实功能。",
+      "supports": ["HandBrake 视频工具说明", "先试转短片段并检查音轨字幕"]
+    },
+    {
+      "url": "https://www.audacityteam.org/",
+      "evidence": "官网说明跨 Windows、macOS、Linux，支持 WAV、MP3、FLAC、Ogg 等导入导出及音频编辑；提供本机应用和另行使用的云伴侣。未把本地剪辑描述为必须云上传。",
+      "supports": ["Audacity 音频剪辑与导出"]
+    },
+    {
+      "url": "https://nextjs.org/docs/app/guides/static-exports",
+      "localSource": "node_modules/next/dist/docs/01-app/02-guides/static-exports.md",
+      "evidence": "读取本项目 Next.js 16.4.5 随包文档：静态导出不支持默认 loader 图片优化；可使用自定义 loader 连接图片服务。",
+      "supports": ["Next.js 部署分支", "不假定静态站有图片处理服务器"]
+    },
+    {
+      "url": "https://nextjs.org/docs/app/guides/videos",
+      "localSource": "node_modules/next/dist/docs/01-app/02-guides/videos.md",
+      "evidence": "读取随包文档：视频使用 poster、controls、preload、width/height 或 aspect-ratio；提供字幕、延后加载与可访问控制。",
+      "supports": ["视频封面与按需加载", "播放验收"]
+    }
+  ],
+  "relatedEvidence": "文件服务的适用场景与套餐沿用 lib/database-sources.json；本轮未重写平台报价或创建外部资源。"
+}

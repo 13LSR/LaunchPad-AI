@@ -1,0 +1,253 @@
+[
+  {
+    "repo": "lobehub/lobe-chat",
+    "status": 200,
+    "name": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  {
+    "repo": "ChatGPTNextWeb/NextChat",
+    "status": 200,
+    "name": "ChatGPTNextWeb/NextChat",
+    "url": "https://github.com/ChatGPTNextWeb/NextChat",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "langgenius/dify",
+    "status": 200,
+    "name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  {
+    "repo": "labring/FastGPT",
+    "status": 200,
+    "name": "labring/FastGPT",
+    "url": "https://github.com/labring/FastGPT",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  {
+    "repo": "binary-husky/gpt_academic",
+    "status": 200,
+    "name": "binary-husky/gpt_academic",
+    "url": "https://github.com/binary-husky/gpt_academic",
+    "archived": false,
+    "license": "GPL-3.0"
+  },
+  {
+    "repo": "tangly1024/NotionNext",
+    "status": 200,
+    "name": "notionnext-org/NotionNext",
+    "url": "https://github.com/notionnext-org/NotionNext",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "timlrx/tailwind-nextjs-starter-blog",
+    "status": 200,
+    "name": "timlrx/tailwind-nextjs-starter-blog",
+    "url": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "blinko-space/blinko",
+    "status": 200,
+    "name": "blinkospace/blinko",
+    "url": "https://github.com/blinkospace/blinko",
+    "archived": false,
+    "license": "GPL-3.0"
+  },
+  {
+    "repo": "usememos/memos",
+    "status": 200,
+    "name": "usememos/memos",
+    "url": "https://github.com/usememos/memos",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "nextjs/saas-starter",
+    "status": 200,
+    "name": "nextjs/saas-starter",
+    "url": "https://github.com/nextjs/saas-starter",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "wasp-lang/open-saas",
+    "status": 200,
+    "name": "wasp-lang/open-saas",
+    "url": "https://github.com/wasp-lang/open-saas",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "6677-ai/tap4-ai-webui",
+    "status": 404
+  },
+  {
+    "repo": "WebStackPage/WebStackPage.github.io",
+    "status": 200,
+    "name": "WebStackPage/WebStackPage.github.io",
+    "url": "https://github.com/WebStackPage/WebStackPage.github.io",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "AmruthPillai/Reactive-Resume",
+    "status": 200,
+    "name": "reactive-resume/reactive-resume",
+    "url": "https://github.com/reactive-resume/reactive-resume",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "corentinth/it-tools",
+    "status": 200,
+    "name": "CorentinTh/it-tools",
+    "url": "https://github.com/CorentinTh/it-tools",
+    "archived": false,
+    "license": "GPL-3.0"
+  },
+  {
+    "repo": "excalidraw/excalidraw",
+    "status": 200,
+    "name": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "ccbikai/Sink",
+    "status": 200,
+    "name": "miantiao-me/Sink",
+    "url": "https://github.com/miantiao-me/Sink",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
+  {
+    "repo": "umami-software/umami",
+    "status": 200,
+    "name": "umami-software/umami",
+    "url": "https://github.com/umami-software/umami",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "louislam/uptime-kuma",
+    "status": 200,
+    "name": "louislam/uptime-kuma",
+    "url": "https://github.com/louislam/uptime-kuma",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "status": 200,
+    "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "anthropics/skills",
+    "status": 200,
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "archived": false
+  },
+  {
+    "repo": "21st-dev/magic-mcp",
+    "status": 200,
+    "name": "21st-dev/magic-mcp",
+    "url": "https://github.com/21st-dev/magic-mcp",
+    "archived": false,
+    "license": "ISC"
+  },
+  {
+    "repo": "shadcn-ui/ui",
+    "status": 200,
+    "name": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "upstash/context7",
+    "status": 200,
+    "name": "upstash/context7",
+    "url": "https://github.com/upstash/context7",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "mendableai/firecrawl-mcp-server",
+    "status": 200,
+    "name": "firecrawl/firecrawl-mcp-server",
+    "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "supabase-community/supabase-mcp",
+    "status": 200,
+    "name": "supabase/mcp",
+    "url": "https://github.com/supabase/mcp",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  {
+    "repo": "stripe/agent-toolkit",
+    "status": 200,
+    "name": "stripe/ai",
+    "url": "https://github.com/stripe/ai",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "microsoft/playwright-mcp",
+    "status": 200,
+    "name": "microsoft/playwright-mcp",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": 200,
+    "name": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  {
+    "repo": "obra/superpowers",
+    "status": 200,
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "archived": false,
+    "license": "MIT"
+  },
+  {
+    "repo": "bmad-code-org/BMAD-METHOD",
+    "status": 200,
+    "name": "bmad-code-org/BMAD-METHOD",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD",
+    "archived": false,
+    "license": "NOASSERTION"
+  },
+  {
+    "repo": "PatrickJS/awesome-cursorrules",
+    "status": 200,
+    "name": "PatrickJS/awesome-cursorrules",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules",
+    "archived": false,
+    "license": "CC0-1.0"
+  }
+]

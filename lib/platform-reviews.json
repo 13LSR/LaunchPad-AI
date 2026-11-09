@@ -1,0 +1,207 @@
+{
+  "cloud-0": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://vercel.com/docs/plans/hobby",
+    "evidence": "Rendered official Hobby content: 100 GB transfer; personal non-commercial only; most exceeded usage requires waiting until 30 days have passed."
+  },
+  "cloud-1": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://developers.cloudflare.com/workers/platform/pricing/",
+    "evidence": "Official pricing: Free 100,000 dynamic requests per day, 10 milliseconds CPU per invocation; static asset requests free and unlimited. Pages Functions use Workers billing."
+  },
+  "cloud-2": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://www.netlify.com/pricing/",
+    "evidence": "Official pricing: Free 300 credits/month. A site reaching limits enters paused state until next cycle; one project exceeding limits can pause all projects on account.",
+    "limit": "发布、带宽、请求与计算共享 300 credits；额度耗尽可能暂停账号下全部项目，下一周期恢复或升级。旧套餐按原计划区分。"
+  },
+  "cloud-3": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://developers.cloudflare.com/pages/platform/limits/",
+    "evidence": "Official limits: Free 500 builds/month, 20,000 files, maximum single asset 25 MiB; Functions count toward Workers usage.",
+    "limit": "免费站点最多 20,000 个文件、单文件 25 MiB；Pages Functions 占用 Workers 额度。新全栈项目同时评估 Workers。"
+  },
+  "cloud-4": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官网明确提供 Pages 静态托管，附带用途与资源限制。",
+    "quotaVerified": true,
+    "source": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+    "evidence": "Published sites may be no larger than 1 GB; soft bandwidth limit of 100 GB per month.",
+    "allowance": "站点不超过 1 GB；月带宽软限额 100 GB",
+    "limit": "不用于在线业务、电商或商业 SaaS；不运行后端。"
+  },
+  "cloud-5": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://deno.com/deploy/pricing",
+    "evidence": "Official pricing Free column: 1M requests, 20 GiB egress, 10 hr active CPU. Idle apps shut down after approximately 20–30 seconds.",
+    "allowance": "Free：每月 100 万请求、20 GiB 出站、10 小时活跃 CPU",
+    "limit": "内存时间、构建与域名另有限额；空闲实例自动关闭，下一次请求会重新启动。需验证 Deno 与项目依赖兼容性。"
+  },
+  "cloud-6": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://docs.streamlit.io/deploy/streamlit-community-cloud",
+    "evidence": "Official Community Cloud overview: create, deploy and manage Streamlit apps for free; connects to public or private GitHub repositories."
+  },
+  "cloud-7": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方 Spaces 文档可访问，创建资格规则已更新。",
+    "quotaVerified": true,
+    "source": "https://huggingface.co/docs/hub/spaces-overview",
+    "evidence": "Official huggingface/hub-docs spaces-overview.md: Static Spaces free; Gradio and Docker require paid plan; free personal accounts in good standing can host up to 2 Gradio ZeroGPU Spaces.",
+    "allowance": "静态 Space 免费；普通 Gradio / Docker 创建需付费计划",
+    "limit": "CPU Basic 无小时费用不等于账户免费；符合条件的免费个人账号可托管至多 2 个 ZeroGPU Gradio Space，另核对资格、休眠与模型资源。"
+  },
+  "cloud-8": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://www.pythonanywhere.com/pricing/",
+    "evidence": "Official pricing: limited free Beginner account includes one Web app, two consoles with restricted outbound Internet; free storage 512 MB.",
+    "allowance": "Beginner 免费账户：1 个 Web 应用、512 MB 文件空间",
+    "limit": "免费账号出站访问受限；适合轻量 Flask / Django，不是通用 Docker 平台。自定义域名等能力需付费计划。"
+  },
+  "cloud-9": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方免费实例规则已读取。",
+    "quotaVerified": true,
+    "source": "https://render.com/docs/free",
+    "evidence": "Rendered official /docs/free confirmed again: 750 instance hours/workspace/month; idle 15 minutes; spin-up about one minute; local filesystem lost on spin-down; Free Postgres 30 days.",
+    "allowance": "每个工作区每月共享 750 免费实例小时",
+    "limit": "免费 Web 服务闲置 15 分钟后休眠；本地文件不持久。免费 Postgres 30 天到期，不能当长期免费数据库。官方不建议免费实例用于生产。"
+  },
+  "cloud-10": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://www.koyeb.com/docs/reference/instances",
+    "evidence": "Official Free Instances section: one per organization, 512 MB RAM, 0.1 vCPU, 2 GB SSD; not production, no Worker Services or volumes; idle 1 hour scales to zero.",
+    "limit": "0.1 vCPU、2 GB 临时 SSD；一小时无流量后休眠，不支持持久卷或 Worker Service，官方不建议用于生产。"
+  },
+  "cloud-11": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方价格页可访问，Free 与付费起点已核对。",
+    "quotaVerified": true,
+    "source": "https://railway.com/pricing",
+    "evidence": "Official pricing: $5 30-day trial then $1/month Free; no credit card required. Cron jobs Free Trial only; Hobby $5 minimum usage.",
+    "allowance": "先试用 30 天 / $5，之后 Free 每月 $1 用量额度",
+    "limit": "Free 资源与服务数受限，$1 不是保证全天运行；Hobby 最低 $5/月。计算、卷与出站流量按用量消耗，Free 正式计划不含 Cron。"
+  },
+  "cloud-12": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方价格页已读取。",
+    "quotaVerified": true,
+    "source": "https://docs.fly.io/about/pricing",
+    "evidence": "Official pricing FAQ: no free tier for new organizations; $1 trial seven days; card needed afterward. Stopped rootfs and provisioned volumes still billed.",
+    "allowance": "新账户试用 $1 / 7 天；无常规免费计算层",
+    "limit": "试用耗尽或到期后需付费。机器、卷和出站流量分别计费；停机仍可能有磁盘费用。"
+  },
+  "cloud-13": {
+    "checkedAt": "2026-11-09",
+    "availability": "retiring",
+    "availabilityNote": "官网公告：2026-12-31 停止运营，部分服务从 2026-12-01 起陆续停止。请迁移已有项目，不再用于新项目。",
+    "quotaVerified": false,
+    "source": "https://zeabur.com/",
+    "evidence": "Rendered official page banner on 2026-11-09: Zeabur 将于 2026/12/31 停止运营，部分服务 12/1 起陆续停止. Raw HTML misses this client-rendered promotion; do not treat HTML absence as reopening."
+  },
+  "cloud-14": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方 Cloud Run 计费页已读取。",
+    "quotaVerified": true,
+    "source": "https://cloud.google.com/run/pricing",
+    "evidence": "Rendered official pricing confirmed request-based free CPU 180,000 vCPU seconds, RAM 360,000 GiB seconds. Separate request/instance billing, aggregated free tier and related service costs.",
+    "allowance": "按请求计费：每月 200 万请求、18 万 vCPU 秒、36 万 GiB 秒免费层",
+    "limit": "额度按结算账号汇总、按层级 1 价格折抵；按实例计费和 Jobs 使用另一套额度。需计费账户；构建、镜像存储及出站费用另算。"
+  },
+  "cloud-15": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://aws.amazon.com/free/",
+    "evidence": "Official Free Tier: $100 signup credits, up to additional $100 from activities; account closes after six months or credit exhaustion on Free Plan. No charge unless converting to Paid.",
+    "limit": "新账号先得 $100，完成指定活动最多再得 $100；Free Plan 最长六个月或额度耗尽后结束。转 Paid 后按所用服务计费，不等于所有服务永久免费。"
+  },
+  "cloud-16": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方 Free Tier 条件已读取。",
+    "quotaVerified": true,
+    "source": "https://www.oracle.com/cloud/free/",
+    "evidence": "Official Free Tier: $300 thirty-day trial plus Always Free; valid credit/debit card required for verification. Accounts idle 30 days may be deemed abandoned.",
+    "allowance": "试用 $300 / 30 天，另有 Always Free 服务",
+    "limit": "Always Free 并非所有服务免费；容量、地区与账号资格受限，需要自行维护服务器。"
+  },
+  "cloud-17": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方页面可访问；不代表所有地区、账号或服务实时可用。",
+    "quotaVerified": true,
+    "source": "https://edgeone.ai/pricing?from=pages",
+    "evidence": "Rendered official pricing page identifies Makers Free $0. Makers, CDN acceleration plans and Edge Functions are distinct sections; do not apply CDN quota table to all Makers resources.",
+    "limit": "Makers Free 与 CDN 加速套餐不是同一套额度；函数、数据能力及地区条件要分别选择。中国大陆加速需符合域名与备案要求。"
+  },
+  "cloud-18": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "",
+    "quotaVerified": true,
+    "source": "https://www.aliyun.com/product/esa",
+    "evidence": "Official ESA product page: free test plan, purchase and renewal free, one per account; personal/testing usage. Functions Pages supports Next.js/Astro; edge functions billed by invocation.",
+    "allowance": "提供免费测试套餐，限购 1 个；新购与续费免费",
+    "limit": "免费版面向个人项目与测试，包含测试流量。函数按调用量计费，不代表所有计算与存储都免费；付费加速套餐和增值项分开选择。"
+  },
+  "cloud-19": {
+    "checkedAt": "2026-11-09",
+    "availability": "unavailable",
+    "availabilityNote": "原入口 run.claw.cloud 本次 DNS 查询失败，浏览器也无法打开，已移出推荐。仅凭入口故障不能确认停运公告或具体日期。",
+    "quotaVerified": false,
+    "source": "https://run.claw.cloud",
+    "evidence": "Current DNS fetch: curl (6) Could not resolve host: run.claw.cloud. This establishes original entry unavailable, not proof the entire company ceased operating."
+  },
+  "cloud-20": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "官方价格页已读取，试用与促销价须区分。",
+    "quotaVerified": true,
+    "source": "https://sealos.io/pricing",
+    "evidence": "Official pricing: new user free trial $0 for seven days; 4 vCPU, 4 GB RAM, 5 GB storage, 500 MB bandwidth. Regular and eligibility-limited new user plan prices shown separately.",
+    "allowance": "新用户七天试用：4 vCPU、4 GB RAM、5 GB 存储、500 MB 流量",
+    "limit": "试用后持续使用需套餐。首购促销价与常规价不同，资格在费用中心确认；税费和可选服务另算。"
+  },
+  "cloud-21": {
+    "checkedAt": "2026-11-09",
+    "availability": "listed",
+    "availabilityNote": "",
+    "quotaVerified": true,
+    "source": "https://cloud.tencent.com/document/product/876/127357",
+    "evidence": "Rendered official Tencent doc rechecked: 3000 points/month; console experience renew six months excludes WeChat experience. Miniapp publish expiry becomes day 15, suspension/isolation then destruction if not converted.",
+    "allowance": "免费体验环境：每月 3,000 资源点，由数据库、文件、函数等共同使用",
+    "limit": "需兑换码且每账号限一个；控制台体验可手动续期，微信体验版不适用。小程序上线后第 15 天到期；停服隔离期未转付费会销毁环境，长期运行需付费。"
+  }
+}

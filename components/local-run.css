@@ -1,0 +1,211 @@
+.local-file-finder {
+  margin: 16px 0 24px;
+  border-block: 1px solid var(--border);
+}
+.local-file-finder > summary,
+.local-related-disclosure > summary,
+.local-error-input > summary {
+  padding: 15px 0;
+  cursor: pointer;
+  color: var(--primary);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.local-file-finder > div {
+  padding: 0 0 20px;
+}
+.local-file-finder p,
+.local-file-result p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--muted-foreground);
+  margin: 0 0 14px;
+  max-width: 75ch;
+}
+.local-file-finder label,
+.local-run-controls label,
+.local-troubleshooting label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 12px 0 8px;
+}
+.local-file-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 12px 0 18px;
+}
+.local-file-examples button {
+  font-family: inherit;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  padding: 6px 9px;
+  color: var(--primary);
+  background: var(--card);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.local-file-examples button:hover {
+  background: var(--accent);
+}
+.local-file-result {
+  margin: 16px 0;
+  padding: 16px;
+  border-radius: 10px;
+  background: var(--muted);
+}
+.local-file-choice {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+.local-file-choice label {
+  margin: 0;
+}
+.local-file-choice select {
+  max-width: 100%;
+}
+.local-run-controls {
+  margin-top: 24px;
+}
+.local-run-controls .command-settings {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px 30px;
+  margin: 20px 0;
+}
+.local-run-controls .command-settings > div {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.local-run-controls .command-settings p {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.local-run-controls .command-settings span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted-foreground);
+  margin-top: 8px;
+  max-width: 60ch;
+}
+.local-run-controls .command-settings > a {
+  flex-basis: 100%;
+  font-size: 12px;
+  color: var(--primary);
+  text-underline-offset: 4px;
+}
+.local-run-controls .command-settings > a:hover {
+  text-decoration: underline;
+}
+.local-run-controls .command-settings label {
+  margin-top: 0;
+}
+.local-stage-tabs {
+  height: auto;
+  min-height: 40px;
+}
+.local-stage-note,
+.local-python-note,
+.local-command-context p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--muted-foreground);
+  margin: 12px 0;
+  max-width: 75ch;
+}
+.local-python-note {
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: var(--foreground);
+}
+.local-command-context {
+  margin: 20px 0 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+.local-command-context strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+.local-after-run {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--accent);
+}
+.local-after-run strong {
+  font-size: 14px;
+}
+.local-after-run p,
+.local-gui-note {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--foreground);
+  margin: 10px 0;
+}
+.local-after-run a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--primary);
+  font-size: 13px;
+  line-height: 1.8;
+  margin-top: 6px;
+}
+.local-related-disclosure {
+  margin-top: 20px;
+}
+.local-related-disclosure .stack-related {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 5px;
+}
+.local-troubleshooting {
+  margin-top: 14px;
+}
+.local-error-input {
+  margin-bottom: 15px;
+}
+.local-error-input p {
+  font-size: 12px;
+  line-height: 1.85;
+  color: var(--muted-foreground);
+}
+.local-error-input textarea {
+  resize: vertical;
+}
+.local-copy-help,
+.local-file-finder p.local-copy-help {
+  margin: 12px 0 0;
+  font-size: 12px;
+  line-height: 1.85;
+  color: var(--muted-foreground);
+  max-width: 75ch;
+}
+@media (max-width: 640px) {
+  .local-file-result {
+    padding: 14px;
+  }
+  .local-after-run {
+    padding: 16px;
+  }
+  .local-run-controls .command-settings {
+    gap: 18px;
+  }
+  .local-command-context .copy-button {
+    height: auto;
+    white-space: normal;
+    text-align: left;
+    padding-block: 8px;
+  }
+  .local-file-finder .copy-button {
+    height: auto;
+    white-space: normal;
+  }
+}

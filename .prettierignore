@@ -1,0 +1,10 @@
+node_modules
+.next
+.tmp
+docx
+lib/content.generated.json
+lib/sources.json
+lib/repos.json
+package-lock.json
+test-results
+playwright-report
